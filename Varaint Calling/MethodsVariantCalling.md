@@ -70,7 +70,7 @@ Sita Karan Patel, NUID-002938187 <patel.sit@norhtheastern.neu.edu>
 
 # Acknowledgements
 
-BINF6309-module05-Professor Quan Wan.
+Professor Quan Wan.
 
 # References
 
