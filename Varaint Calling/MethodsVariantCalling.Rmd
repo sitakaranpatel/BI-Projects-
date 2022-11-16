@@ -45,7 +45,7 @@ patel.sit@norhtheastern.neu.edu
 patel.sit@login.discovery.neu.edu
 
 # Acknowledgements
-BINF6309-module05-Professor Quan Wan.
+Professor Quan Wan.
 
 # References
 R;, L. H. D. (n.d.). Fast and accurate short read alignment with Burrows-wheeler transform. Bioinformatics (Oxford, England). Retrieved October 28, 2022, from https://pubmed.ncbi.nlm.nih.gov/19451168/ 
@@ -53,4 +53,3 @@ R;, L. H. D. (n.d.). Fast and accurate short read alignment with Burrows-wheeler
 McKenna A;Hanna M;Banks E;Sivachenko A;Cibulskis K;Kernytsky A;Garimella K;Altshuler D;Gabriel S;Daly M;DePristo MA; (n.d.). The Genome Analysis Toolkit: A mapreduce framework for analyzing next-generation DNA sequencing data. Genome research. Retrieved October 28, 2022, from https://pubmed.ncbi.nlm.nih.gov/20644199/ 
 
 Poplin R;Chang PC;Alexander D;Schwartz S;Colthurst T;Ku A;Newburger D;Dijamco J;Nguyen N;Afshar PT;Gross SS;Dorfman L;McLean CY;DePristo MA; (n.d.). A universal SNP and small-indel variant caller using Deep Neural Networks. Nature biotechnology. Retrieved October 28, 2022, from https://pubmed.ncbi.nlm.nih.gov/30247488/ 
-
