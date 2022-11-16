@@ -1,6 +1,0 @@
----
-title: "methodsResults"
-author: "Sita Karan Patel"
-date: "`r Sys.Date()`"
-output: html_document
----
