@@ -1,16 +1,15 @@
-# Title: Module04-Differential Expression Analysis.
-Sita Karan Patel module04-sitakaranpatel- Differential Expression Analysis.
+# Title: Differential Expression Analysis.
 
 # Methods
 The module Differential Expression Analysis consits of the following files:
 
-~/BINF6309/module04-sitakaranpatel/AnalyzeOutSpattFrom2Genomes.R
+-AnalyzeOutSpattFrom2Genomes.R
 
-~/BINF6309/module04-sitakaranpatel/de.R
+-de.R
 
-~/BINF6309/module04-sitakaranpatel/deAnnotated.csv
+-deAnnotated.csv
 
-~/BINF6309/module04-sitakaranpatel/alignAll.sh
+-alignAll.sh
 
 Differential Expression Analysis tells us the relative abundance, that is, the the number of NGS reads that that will match to the gene of the reference genome. Here "Salmon" is used to determine the relative abundance estimates which are then imported by "tximport" and the differentially expressed genes are then recognized by "DeSeq2" which will do statistical testing.
 Workflow through files:
@@ -29,7 +28,7 @@ patel.sit@norhtheastern.neu.edu
 patel.sit@login.discovery.neu.edu
 
 # Acknowledgements
-BINF6309-module03-Professor Quan Wan.
+Professor Quan Wan.
 
 # References
 Patro R;Duggal G;Love MI;Irizarry RA;Kingsford C; (n.d.). Salmon provides fast and bias-aware quantification of transcript expression. Nature methods. Retrieved October 14, 2022, from https://pubmed.ncbi.nlm.nih.gov/28263959/ 
