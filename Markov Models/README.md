@@ -1,7 +1,4 @@
 # Module03-Pattern Discovery, Markov Models, and R
-Sita Karan Patel
-module03-sitakaranpatel-Pattern Discovery, Markov Models, and R
-
 
 ## Methods
 The module Pattern Discovery, Markov Models consists of scripts that run in R
