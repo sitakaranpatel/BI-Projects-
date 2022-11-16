@@ -1,0 +1,56 @@
+---
+title: "MethodsVariantCalling"
+output:
+  html_document: default
+  pdf_document: default
+bibliography: bibliography.ris
+---
+
+# Title: Module05-Variant Calling.
+Sita Karan Patel module04-sitakaranpatel- Differential Expression Analysis.
+
+# Methods
+The module Varaint Calling consits of the following files:
+## getGenome.sh - 
+The following bash file will use the function wget to get the reference genome which is release 27 from the Gencode FTP server. The output file is saved as GRCh38_reference.fa.gz.
+
+## getReads.sh - 
+The reads are retrieved SRA, specifically under SRR6808334. Fastqc tool was used.
+
+## trimReads.sh 
+Quality trim of the reads was done by  Trimmomatic. 
+
+## indexGenome.sh
+The indexing of the file GRCh38_reference.fa.gz was done by the tool bwa mem. The index function in bwa  was used for indexing and the output was saved in ndexGenome.log and ndexGenome.err files. 
+
+## alignReads.sh
+Burrows-Wheeler Alignment tool (BWA) is a popular tool to align short sequencing reads against a large reference sequence so that mismatches and gaps are identified. The ouput is in the form of sam file format. BWA supports both color space reads and base space reads.
+bwa mem was used for alignment of the trimmed reads files which are SRR6808334_1.fastq SRR6808334_2.fastq
+to that of the reference genome file generated which is GRCh38_reference.fa. The aligned reads were then saved as SRR6808334.sam. 
+
+## sort.sh
+Once the alignment of the reads were done, sorting was done with the help of samtools. Here the sort function was used to sort the SRR6808334.sam. The output was then saved in the form of a bam file named as SRR6808334.bam.
+
+## indexReads.sh
+The sortd bam file (SRR6808334.bam) has to be indexed. Samtools again was used to perform the indexing. The function index was called to do so.
+
+## runDeepVariant.sh
+Now the variant calling was performed using an analysis pipeline called DeepVariant. DeepVariant employs a deep neural network to identify genetic variations in data from next-generation DNA sequencing. It can perform variant-calling for diploid organisms.
+Firstly the input, output and log directories were created. The reference and sorted bam files are then copied in to the input directory (INPUT_DIR). The docker image was pulled using the command sudo docker pull. The DeepVariant then performed the variant calling with the command 'sudo docker run'. The type of data was given as WGS. The reference, aligned reads variable names which has the file paths. The VCF and GVCF output files were saved in the OUTPUT_VCF and OUTPUT_GVCF.
+
+
+# Author
+Sita Karan Patel, NUID-002938187
+patel.sit@norhtheastern.neu.edu
+patel.sit@login.discovery.neu.edu
+
+# Acknowledgements
+BINF6309-module05-Professor Quan Wan.
+
+# References
+R;, L. H. D. (n.d.). Fast and accurate short read alignment with Burrows-wheeler transform. Bioinformatics (Oxford, England). Retrieved October 28, 2022, from https://pubmed.ncbi.nlm.nih.gov/19451168/ 
+
+McKenna A;Hanna M;Banks E;Sivachenko A;Cibulskis K;Kernytsky A;Garimella K;Altshuler D;Gabriel S;Daly M;DePristo MA; (n.d.). The Genome Analysis Toolkit: A mapreduce framework for analyzing next-generation DNA sequencing data. Genome research. Retrieved October 28, 2022, from https://pubmed.ncbi.nlm.nih.gov/20644199/ 
+
+Poplin R;Chang PC;Alexander D;Schwartz S;Colthurst T;Ku A;Newburger D;Dijamco J;Nguyen N;Afshar PT;Gross SS;Dorfman L;McLean CY;DePristo MA; (n.d.). A universal SNP and small-indel variant caller using Deep Neural Networks. Nature biotechnology. Retrieved October 28, 2022, from https://pubmed.ncbi.nlm.nih.gov/30247488/ 
+

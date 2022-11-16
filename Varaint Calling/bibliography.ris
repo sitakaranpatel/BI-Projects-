@@ -1,0 +1,55 @@
+TY  - JOUR
+T1  - Fast and accurate short read alignment with Burrows–Wheeler transform
+A1  - Li, Heng
+A1  - Durbin, Richard
+JO  - bioinformatics
+VL  - 25
+IS  - 14
+SP  - 1754
+EP  - 1760
+SN  - 1367-4803
+Y1  - 2009
+PB  - Oxford University Press
+ER  - 
+TY  - JOUR
+T1  - The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data
+A1  - McKenna, Aaron
+A1  - Hanna, Matthew
+A1  - Banks, Eric
+A1  - Sivachenko, Andrey
+A1  - Cibulskis, Kristian
+A1  - Kernytsky, Andrew
+A1  - Garimella, Kiran
+A1  - Altshuler, David
+A1  - Gabriel, Stacey
+A1  - Daly, Mark
+JO  - Genome research
+VL  - 20
+IS  - 9
+SP  - 1297
+EP  - 1303
+SN  - 1088-9051
+Y1  - 2010
+PB  - Cold Spring Harbor Lab
+ER  - 
+TY  - JOUR
+T1  - A universal SNP and small-indel variant caller using deep neural networks
+A1  - Poplin, Ryan
+A1  - Chang, Pi-Chuan
+A1  - Alexander, David
+A1  - Schwartz, Scott
+A1  - Colthurst, Thomas
+A1  - Ku, Alexander
+A1  - Newburger, Dan
+A1  - Dijamco, Jojo
+A1  - Nguyen, Nam
+A1  - Afshar, Pegah T
+JO  - Nature biotechnology
+VL  - 36
+IS  - 10
+SP  - 983
+EP  - 987
+SN  - 1546-1696
+Y1  - 2018
+PB  - Nature Publishing Group
+ER  - 
