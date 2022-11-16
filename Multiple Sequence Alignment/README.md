@@ -3,8 +3,10 @@ Sita Karan Patel module06-sitakaranpatel-Module 6 Practice: Multiple Sequence Al
 
 # Methods
 The module Module 6 Practice: Multiple Sequence Alignment  consists of scripts:
-module6-sitakaranpatel/translate_APOE.py
-module6-sitakaranpatel/clustalAlign.sh
+
+-module6-sitakaranpatel/translate_APOE.py
+
+-module6-sitakaranpatel/clustalAlign.sh
 
 We downloaded the APOE gene orthologs from various species and then converted the nucleotide sequences to amino acid using a Python 3 or BioPython script. The multiple seqment of the numerous sequences was done using Clustal Omega.
 
@@ -25,5 +27,5 @@ The following bash file performed multiple seq alignment of the translated amino
 * patel.sit@login.discovery.neu.edu
 
 # Acknowledgements
-* BINF6309-module06-Professor Quan Wan.
+* Professor Quan Wan.
 
