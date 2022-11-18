@@ -1,0 +1,500 @@
+CustomerID,FirstName,LastName,StreetAddress,City,State,ZipeCode,Telephone,Purchases_Total
+1001,Wesley,Solomon,175 Green Clarendon Avenue,Toledo,Utah,55933,9613675297,2
+1002,Dean,Bernard,956 Second Street,Washington,Texas,94778,6294571987,3
+1003,Valerie,Schwartz,83 Milton Avenue,Miami,Nebraska,67569,679-609-0243,1
+1004,Loretta,Ewing,565 White First St.,Phoenix,Delaware,39399,239407-8990,2
+1005,Noah,Boyd,35 South Green Oak Avenue,Detroit,Montana,59454,436931-2419,2
+1006,Trina,Wong,49 East Cowley Freeway,Yonkers,Connecticut,29552,6344811033,2
+1007,Garry,Aguilar,335 South Nobel St.,Arlington,Utah,64160,717420-6114,2
+1008,Glenn,Blackburn,68 North White Nobel Drive,El Paso,Virginia,2362,8387520851,7
+1009,Jake,Roach,48 New St.,Akron,Hawaii,73805,458-676-2202,2
+1010,Vicki,Rowland,60 Cowley St.,Jackson,Oklahoma,24820,656-353-8087,6
+1011,Earl,Woods,250 Oak St.,San Diego,Nebraska,79904,781440-5573,7
+1012,Sherman,Daugherty,271 Rocky New Road,Kansas,Montana,9938,316-598-8507,2
+1013,Brandi,Rush,204 Clarendon Blvd.,Dayton,Michigan,41560,1033092958,3
+1014,Marisa,Mc Cormick,548 White Cowley St.,Oklahoma,Ohio,72358,334-5397587,5
+1015,Karin,Morris,828 North Milton Road,Spokane,Utah,12110,6146481121,2
+1016,Dwayne,Lindsey,972 Rocky Nobel Street,Kansas,Oregon,90964,013-362-7099,7
+1017,Sam,Austin,88 Oak Freeway,Omaha,Colorado,31121,064-6670289,6
+1018,Lee,Bonilla,466 West Green Old Way,Mobile,Idaho,50009,690526-0169,7
+1019,Karl,Dougherty,797 North Milton Parkway,Mesa,Vermont,60466,951-413-0708,7
+1020,Larry,Medina,219 Rocky New Road,Jacksonville,Connecticut,98259,491-1811721,7
+1021,Autumn,Norman,62 North White Cowley Street,Norfolk,Hawaii,72913,793296128,1
+1022,Willie,Hall,528 First Avenue,Garland,Kentucky,24520,687445-8018,3
+1023,Elaine,Barrett,149 First Road,Richmond,Wyoming,57941,3367541506,2
+1024,Courtney,Mitchell,15 First Blvd.,Fort Wayne,West Virginia,87220,666551-1391,3
+1025,Reginald,Craig,512 South Rocky Oak Drive,Columbus,New Jersey,62066,152-0596170,5
+1026,Marci,Moore,78 East White New Boulevard,Tucson,Missouri,47264,039-1555576,2
+1027,Bethany,Huynh,292 West Oak Boulevard,Detroit,Hawaii,89019,308-2163791,5
+1028,Sergio,Perkins,37 Oak Parkway,Chicago,Michigan,24993,548-122-9048,5
+1029,Harvey,Franklin,79 Fabien Way,Oakland,Mississippi,23154,2771500862,3
+1030,Milton,Kidd,56 White Old Parkway,Santa Ana,Iowa,91727,709-620-4264,4
+1031,Garry,Rowland,22 Rocky Hague Drive,Baltimore,Oklahoma,33314,428-952-4464,7
+1032,Bobbi,Diaz,110 Rocky Old Freeway,St. Paul,Tennessee,20515,619-046-2657,5
+1033,William,Larsen,15 South New St.,St. Louis,Oregon,60982,894170-6095,5
+1034,Jodie,Delgado,79 West Nobel Blvd.,Long Beach,Louisiana,84438,781-945-0025,5
+1035,Heather,Gill,75 West Oak Boulevard,St. Louis,South Dakota,73771,7205852677,6
+1036,Jodie,Olson,668 Hague Street,Greensboro,Rhode Island,6675,3797474039,2
+1037,Kendrick,Lynch,628 New Blvd.,Fremont,Louisiana,27489,290673-7623,6
+1038,Blake,Berry,87 White Old Avenue,Oklahoma,Tennessee,88108,231-4846550,6
+1039,Sheryl,Patel,698 White Old Road,Charlotte,Minnesota,9759,373-175-4455,3
+1040,Jeannette,Mcgrath,857 Oak Parkway,San Francisco,Idaho,40784,020-055-0088,7
+1041,Otis,Rios,953 South Milton Boulevard,Mesa,North Dakota,80060,7774664167,7
+1042,Robin,Guzman,233 North Milton Drive,Toledo,Connecticut,66725,242-8654009,7
+1043,Gordon,Macias,74 Milton Street,Tulsa,Kansas,38401,775-338-6128,1
+1044,Ramiro,Rodriguez,409 New Road,Charlotte,Montana,31724,658291-5518,3
+1045,Doris,Lucas,913 Oak Avenue,Greensboro,Ohio,7648,9318753037,4
+1046,Catherine,Tyler,51 South Rocky Nobel Street,Toledo,Missouri,81075,096-7786956,5
+1047,Spencer,Leon,13 Milton Blvd.,Colorado,California,56300,514-080-1946,7
+1048,Patricia,Shaw,770 Cowley Way,Houston,Mississippi,74190,687-1916771,2
+1049,Wallace,Jackson,674 Hague Avenue,Arlington,Massachusetts,77515,635866-4822,1
+1050,Janine,Park,26 Hague Road,Stockton,Washington,5619,9874131263,5
+1051,Josephine,Forbes,280 Rocky Clarendon Blvd.,Rochester,Alabama,49118,757867-4984,3
+1052,Jerry,Alexander,523 White Old Freeway,Fresno,North Carolina,64127,307-6545215,4
+1053,Cecil,Li,14 Hague Blvd.,Louisville,New York,40255,4190544876,7
+1054,Edgar,Reyes,69 Rocky First Freeway,Chicago,Wyoming,23998,784323-4675,2
+1055,Byron,Beltran,16 West First Way,Spokane,Minnesota,41908,421-164-3709,4
+1056,Deana,Hanna,701 Nobel Road,Garland,Massachusetts,79193,423999-3329,2
+1057,Jay,Garcia,760 White Cowley Blvd.,Los Angeles,Alaska,26209,318684-8374,7
+1058,Corey,Todd,136 East Oak Blvd.,Santa Ana,New Jersey,95562,486-6182322,4
+1059,Tyrone,Kaufman,62 White Milton Freeway,Tampa,Vermont,76303,140656-4689,3
+1060,Tabatha,Bond,66 East Oak Road,Aurora,Rhode Island,94742,699-913-9817,3
+1061,Mathew,Haynes,55 Fabien Blvd.,Tacoma,Pennsylvania,13418,553-0191184,5
+1062,Luz,Barker,979 White New St.,Dallas,West Virginia,86483,431-1413383,2
+1063,Theodore,Smith,24 Milton Drive,Aurora,California,26347,3642716331,5
+1064,Miranda,Parrish,829 Clarendon Parkway,Nashville,Arizona,44251,493293-5617,4
+1065,Jermaine,Morris,464 Oak Street,New Orleans,Tennessee,18704,234-3928522,4
+1066,Sammy,Villa,48 South Nobel Blvd.,Austin,Montana,88090,8430181501,2
+1067,Eileen,Hernandez,123 Fabien Boulevard,Charlotte,Montana,77017,907042-9670,1
+1068,Demond,Duncan,87 West Oak St.,Nashville,Rhode Island,45379,8711452232,7
+1069,Elisa,Mann,667 White Fabien St.,Santa Ana,New Mexico,16857,5462273117,7
+1070,Shari,Perry,347 North Green Cowley Way,Washington,Oregon,32266,702-953-8385,4
+1071,Kristy,Oliver,61 White Fabien Road,Tacoma,Iowa,56739,734557-2122,2
+1072,Carl,Reilly,720 Rocky First Avenue,Kansas,Arkansas,46982,767408-6124,6
+1073,Martha,Houston,12 White Milton Way,San Antonio,Louisiana,60930,791-642-3730,3
+1074,Glenda,Walton,38 White Hague Drive,Yonkers,Nevada,97048,735416-8398,6
+1075,Amy,Guzman,293 East Green New Drive,Columbus,Colorado,73747,645175-3218,3
+1076,Trevor,Tapia,66 Rocky First Freeway,Lincoln,Iowa,66429,408120-3928,2
+1077,Hector,Cooper,55 Old Blvd.,Cleveland,South Dakota,44576,635-486-8668,4
+1078,Melissa,Bush,82 Hague Way,Chicago,Maine,97846,6323390124,5
+1079,Suzanne,Flowers,71 White First Drive,Jackson,Vermont,70620,834722-8645,5
+1080,Carmen,Lucas,86 Milton Drive,Charlotte,Maryland,46627,312-499-9440,1
+1081,Arthur,Rodriguez,611 Green Second Road,Santa Ana,South Carolina,68528,302639-6180,5
+1082,Sheldon,Marquez,21 North Rocky Nobel St.,Glendale,Ohio,87489,549-0479351,7
+1083,Sherrie,Oliver,95 Second Blvd.,Grand Rapids,New Mexico,73196,4706898723,7
+1084,Stacie,Washington,690 Rocky Fabien St.,Arlington,Louisiana,13421,404-8963528,5
+1085,Brad,Wilcox,447 Rocky Hague Road,Jersey,Pennsylvania,32684,994595-9060,3
+1086,Janine,Richardson,160 Fabien Way,Columbus,Texas,32237,367422-7378,1
+1087,Angel,Moss,16 Nobel Parkway,Detroit,Virginia,56726,5285519733,2
+1088,Wendi,Young,615 Second Avenue,Norfolk,Washington,32065,8726948248,2
+1089,Natasha,Allison,67 South Green First Blvd.,Anchorage,Pennsylvania,25793,2025757788,7
+1090,Dennis,Rangel,110 Nobel St.,Albuquerque,Ohio,91536,579-397-1290,2
+1091,Milton,Skinner,321 East Milton Parkway,Denver,New Mexico,62779,041906-2882,1
+1092,Matthew,Benton,38 Rocky Fabien Way,Phoenix,Oklahoma,33394,046-360-4577,1
+1093,Taryn,Ellison,406 Hague Boulevard,Kansas,California,11962,131576-3894,7
+1094,Shawn,Wilson,300 North Second Blvd.,Chicago,Alaska,6346,4695678376,6
+1095,Michelle,Mc Dowell,67 Fabien Road,Garland,Nebraska,55425,231-7610989,5
+1096,Darrick,Fry,98 West White Old Street,Houston,New York,1544,866-6126819,7
+1097,Amber,Crosby,909 First St.,Riverside,New York,80813,668-189-9607,1
+1098,Bennie,Kirby,90 Rocky Hague Avenue,St. Louis,Idaho,89694,372-869-9164,6
+1099,Dominick,Hunt,75 Rocky Oak Blvd.,Jersey,Michigan,31114,315893495,4
+1100,Corey,Rhodes,521 First Way,Washington,Connecticut,63368,154205-8671,6
+1101,Herman,Arroyo,919 White Milton Drive,Seattle,Massachusetts,86686,695-9411559,4
+1102,Brandon,Welch,65 Milton Freeway,Atlanta,Massachusetts,71099,5081980177,2
+1103,Tonia,Calderon,811 Hague Drive,Los Angeles,Illinois,5837,293-905-6587,1
+1104,Norman,Small,293 Fabien Avenue,Oakland,Illinois,85115,151-4597502,6
+1105,Virginia,Kaufman,495 North Hague Avenue,Santa Ana,Kentucky,82090,420-3560819,7
+1106,Gerald,Skinner,69 Old Way,Las Vegas,Florida,29224,274592219,1
+1107,Alex,Bullock,526 White Clarendon St.,Virginia Beach,Ohio,58583,737-893-8749,7
+1108,Tamara,Summers,855 Fabien Parkway,Washington,Montana,4958,254-439-6517,3
+1109,Celeste,Anderson,558 Second Road,Long Beach,Wisconsin,5923,704948-5384,1
+1110,Micah,Combs,66 Nobel Drive,Detroit,South Dakota,38944,521-340-6566,1
+1111,Vincent,Bryan,375 Oak Way,Tampa,Arizona,3616,761-5530267,4
+1112,Janelle,Baird,71 New Freeway,Little Rock,Wisconsin,23749,456678-4365,2
+1113,Kareem,Brandt,43 Rocky Clarendon Road,Houston,Colorado,24832,568-7473054,3
+1114,Leo,Mcgrath,652 South Green First Freeway,Jacksonville,Illinois,42341,746-0939205,3
+1115,Jeff,Grant,173 South Nobel Blvd.,Newark,Illinois,29889,520129-3310,6
+1116,Felipe,Curry,77 South Green First Street,Seattle,New Mexico,10224,765-885-7247,7
+1117,Meghan,Wells,10 East Second Freeway,Jersey,West Virginia,48780,544-0358745,4
+1118,Glen,Taylor,442 Green Fabien Boulevard,Austin,Massachusetts,80823,443-993-3205,2
+1119,James,Good,60 Rocky New Avenue,Chicago,New Hampshire,22878,289-127-2791,2
+1120,Marc,Young,883 Rocky Clarendon St.,Shreveport,Connecticut,20214,337150-8738,3
+1121,Dena,Rice,124 White Cowley Way,Richmond,Nevada,28093,112477-4151,4
+1122,Lea,Barker,419 East Nobel Drive,Miami,Alaska,63030,122-993-3843,1
+1123,Bart,Wilkerson,283 New Way,Tucson,North Dakota,90820,7305386689,4
+1124,Jana,Cervantes,402 North Green First Blvd.,Birmingham,North Carolina,45976,361668-0978,7
+1125,Julie,Browning,42 Cowley St.,Hialeah,Virginia,65149,175-9863629,7
+1126,Marcus,Hines,329 South Green Fabien Boulevard,Baltimore,West Virginia,8141,755-2469660,1
+1127,Jason,Hodge,652 Second Blvd.,Raleigh,Kansas,50419,159-516-4805,1
+1128,Gabriela,Mejia,644 New Drive,Boston,California,37739,924460-2413,2
+1129,Franklin,Gonzales,14 New Drive,Milwaukee,Hawaii,53600,963196-9493,6
+1130,Gregory,House,357 South Green Clarendon Blvd.,Yonkers,Utah,63575,059-286-3354,6
+1131,Douglas,Whitaker,35 North Clarendon Street,Houston,Indiana,67145,3072863012,7
+1132,Antoine,Bernard,31 Green Hague Boulevard,Chicago,New Mexico,61321,653-9449855,1
+1133,Jonathan,Mejia,60 North Green Second Blvd.,Washington,New Hampshire,71240,900268-7694,6
+1134,Lena,Jefferson,114 Green Fabien Freeway,Norfolk,North Carolina,66772,699315-8442,4
+1135,Tonia,Ballard,958 New Boulevard,Lubbock,Arizona,91800,536-8752972,1
+1136,Chrystal,Conley,739 White Fabien Parkway,Charlotte,Illinois,56264,5344192672,1
+1137,Cecil,Tucker,53 Oak Way,Honolulu,Colorado,44947,329-765-7568,6
+1138,Shirley,Gillespie,28 Rocky Hague Boulevard,Montgomery,Michigan,11907,245-3095916,4
+1139,Ismael,Lawson,932 White Oak Blvd.,Anaheim,Indiana,26315,071-574-1056,7
+1140,Audra,Delgado,536 Green Oak Street,Louisville,Oregon,34734,274-2526130,1
+1141,Nick,Vincent,88 East Hague Drive,Des Moines,Vermont,45390,837-1608774,7
+1142,Gena,Sutton,32 West Hague Way,Philadelphia,Massachusetts,90962,941358-6333,3
+1143,Rocky,Koch,624 North White Oak Avenue,Baton Rouge,Indiana,88628,669-8914432,3
+1144,Karen,Holland,24 East New Freeway,Jacksonville,California,83568,203774-0036,6
+1145,Nathan,Taylor,62 North Rocky Clarendon Freeway,Bakersfield,Minnesota,81071,962-7803313,7
+1146,Terra,Potter,55 Clarendon Blvd.,Jacksonville,Montana,30806,595251-2468,5
+1147,Leanne,Best,69 Clarendon St.,Columbus,South Dakota,43557,483-184-2105,1
+1148,Julio,Singleton,903 South Old Avenue,Pittsburgh,Kansas,45395,364787-3538,2
+1149,Colleen,Wiley,51 West Cowley Way,Shreveport,Tennessee,33472,860-1806223,7
+1150,Craig,Mc Carthy,934 Milton St.,Minneapolis,West Virginia,39548,191-466-1144,2
+1151,Lloyd,Jackson,25 Oak Boulevard,Jackson,North Carolina,97303,8678964173,4
+1152,Freddie,Gilmore,32 Green Nobel Freeway,Greensboro,Missouri,44911,700-804-9152,7
+1153,Karrie,Carey,353 East White Second Blvd.,Washington,Alabama,44633,347-930-6753,5
+1154,Erika,Middleton,594 West Rocky Old Blvd.,Long Beach,California,48131,721694-0267,4
+1155,Anthony,Conrad,451 White Hague Avenue,Spokane,Montana,6379,954-541-3928,2
+1156,Francis,Riley,141 East White Cowley Way,Omaha,New York,96198,239-643-5860,1
+1157,Edwin,Ruiz,647 Green Fabien Way,Denver,Tennessee,75240,084-3514114,7
+1158,Francisco,Haney,24 Milton Street,Montgomery,South Dakota,29647,932-5914681,4
+1159,Latanya,Dodson,865 Rocky First Avenue,Lincoln,South Dakota,178,465052-7179,2
+1160,Leonard,Stewart,985 Clarendon St.,Kansas,Michigan,65850,303-9039962,1
+1161,Rebecca,Morris,795 Clarendon Blvd.,Dayton,Kansas,19236,2606442654,6
+1162,Benny,Fischer,80 Second Boulevard,Charlotte,Kentucky,26463,637-9352243,1
+1163,Marianne,Heath,12 White First Parkway,Albuquerque,Rhode Island,60854,542-9797892,3
+1164,Gilbert,Small,330 First Avenue,Baltimore,Tennessee,47109,524-4197641,4
+1165,Kathryn,Stein,30 Rocky Cowley Blvd.,Anchorage,Georgia,52543,8587861198,3
+1166,Bridgette,Russo,201 East Hague Road,Mobile,Texas,1038,3041277370,3
+1167,Jackie,Barnes,16 Rocky Clarendon Parkway,Tampa,Iowa,43518,267260-6551,7
+1168,Ashley,Bentley,677 South Green Fabien St.,Portland,Nevada,59204,817213-0925,3
+1169,Tamiko,Knapp,265 Rocky Fabien Road,New York,Connecticut,21304,636-953-0396,6
+1170,Desiree,Booth,763 Green Second Street,Little Rock,New Mexico,31746,8931568769,4
+1171,Latoya,Medina,62 Second Freeway,Milwaukee,Florida,63075,9200819399,5
+1172,Derick,Pope,11 Rocky Fabien Drive,Washington,Alaska,55069,766-562-9338,3
+1173,Jimmy,Fowler,86 North White Fabien Drive,Miami,Arkansas,30665,676-448-5403,5
+1174,Roxanne,Nunez,83 East Second Street,Garland,Oklahoma,68743,253-874-9035,1
+1175,Alvin,Price,78 Green Second Blvd.,Newark,Kansas,55000,587541-9025,3
+1176,Matthew,Rios,88 South Hague Drive,Pittsburgh,Minnesota,3324,445-5070150,1
+1177,Vernon,Owens,838 Cowley Parkway,Yonkers,Hawaii,89074,055-1348412,7
+1178,Candy,Figueroa,98 New St.,Austin,Oklahoma,23487,7228837901,7
+1179,Bryan,Todd,200 Rocky Fabien Way,Dallas,Vermont,54638,677670259,6
+1180,Sherman,Rivas,96 Rocky First Road,Seattle,Alaska,60616,9644201146,3
+1181,Corey,Sharp,92 Green Milton Boulevard,Virginia Beach,Maine,39827,245-608-8593,1
+1182,Kerri,Brady,24 Second Road,Corpus Christi,Indiana,30125,4711950353,4
+1183,Dawn,Garcia,172 White Cowley Drive,Nashville,Utah,51590,749-4769977,1
+1184,Jacquelyn,Morgan,222 White Fabien Parkway,Norfolk,Virginia,46139,593-672-8538,7
+1185,Betsy,Black,92 Second Freeway,Cleveland,Illinois,30451,158288-1380,2
+1186,Oscar,Middleton,406 White Milton Drive,St. Paul,Wyoming,3513,832-322-1548,1
+1187,Kerri,Warner,865 East Green Cowley Street,Cincinnati,Alabama,20637,4715129782,4
+1188,Gustavo,Schmitt,64 Oak Boulevard,Hialeah,Kentucky,43596,5502389788,1
+1189,Cameron,Hodge,26 North Green New Road,Dayton,Nebraska,62520,909-2941930,5
+1190,Bryant,Dominguez,57 Oak Blvd.,Rochester,Louisiana,22793,703843-0646,4
+1191,Harvey,Acevedo,17 Green Fabien St.,Jacksonville,South Dakota,10718,439-8996218,7
+1192,Sylvia,Newton,671 White Milton Freeway,Norfolk,Illinois,11447,5800900081,1
+1193,Bradford,Salazar,566 Nobel Parkway,Spokane,Indiana,36405,500337060,2
+1194,Dexter,Cole,624 Milton Drive,Denver,Tennessee,1484,246-707-0265,6
+1195,Colby,Costa,300 New Street,Oakland,Connecticut,50648,822-2784673,3
+1196,Raquel,Hutchinson,947 White Cowley Avenue,St. Petersburg,North Carolina,53160,748-840-3731,7
+1197,Betty,Estes,17 Green Old Road,Denver,Minnesota,82699,2124804503,4
+1198,Sandra,Mcclain,84 Oak St.,Aurora,Idaho,60605,6570955183,3
+1199,Gabriela,Mc Guire,79 White Cowley Avenue,Kansas,Idaho,49495,056-4681354,3
+1200,Harvey,Lester,45 Oak Way,Lincoln,Louisiana,99629,423637-0032,1
+1201,Adrienne,Jarvis,23 White Old Street,Albuquerque,Colorado,17380,662-2891169,6
+1202,Vickie,Ayala,84 South Milton Boulevard,Richmond,Virginia,51153,784180-5887,4
+1203,Jeanne,Mahoney,11 Nobel Street,Garland,Minnesota,44797,446-5307998,1
+1204,Sharon,Ingram,314 Oak Freeway,Minneapolis,Virginia,18033,4069527740,6
+1205,Latanya,Moss,414 Milton Drive,Miami,Wyoming,8010,1581252081,2
+1206,Colby,Pitts,98 Second Street,Arlington,Colorado,95474,973-465-7688,2
+1207,Rebekah,Garcia,63 West White Milton Road,San Francisco,Hawaii,34194,726-8932045,7
+1208,Loren,Gonzales,13 West Nobel Boulevard,Yonkers,Hawaii,56737,707098-1270,3
+1209,Sarah,Wilkerson,31 South Nobel Drive,Chicago,Oklahoma,13766,464555-2174,1
+1210,Jackie,Spears,99 Green New Way,Arlington,Alaska,89500,963666-8888,1
+1211,Jeremy,Poole,486 White Old Blvd.,Wichita,Missouri,35115,7271938865,7
+1212,Cameron,Brown,296 Second Street,Detroit,Colorado,77142,354-4151807,5
+1213,Felicia,Bishop,191 Second Parkway,Kansas,Texas,57163,805-519-4996,1
+1214,Ricky,Fletcher,55 North White Nobel Parkway,Washington,Colorado,32192,015-2587238,7
+1215,Cary,Boone,544 East Rocky Hague Boulevard,Tampa,Nebraska,98042,506074-9160,6
+1216,Mary,Phelps,69 White Hague Way,Raleigh,Kentucky,28092,636-115-3541,1
+1217,Dennis,Singh,42 Green Clarendon Freeway,Long Beach,Iowa,12557,361-6326676,2
+1218,Tamika,Boyd,985 New St.,Jacksonville,Connecticut,80293,771-8075663,3
+1219,Joel,Hogan,959 Rocky Oak Street,Tulsa,Virginia,92171,3790850539,4
+1220,Damian,Compton,50 Rocky Hague Way,Akron,New Mexico,91350,377-9524402,1
+1221,Meredith,Joseph,363 West Second Freeway,Garland,Florida,51300,175-650-1687,6
+1222,Larry,Hart,580 South White Fabien St.,Seattle,Hawaii,94231,627533-9495,1
+1223,Roderick,Bird,611 White Hague Boulevard,St. Petersburg,Alabama,98640,576-285-8812,6
+1224,Sammy,Benitez,125 Second Blvd.,Raleigh,Delaware,7110,667-0343746,6
+1225,Andres,Pruitt,460 Fabien Drive,Tacoma,Arizona,22906,548-5302172,6
+1226,Jo,Hess,73 Old St.,New Orleans,New Mexico,46306,117-9488081,4
+1227,Brady,Baird,313 Green Nobel Drive,Long Beach,Alabama,24092,537169-2053,7
+1228,Myron,Bradford,39 East Rocky Second Boulevard,Richmond,Louisiana,19979,610000-7517,7
+1229,Kristen,Young,441 White New Blvd.,Tulsa,New York,61776,463505-7347,1
+1230,Derek,Leon,933 Milton Way,Newark,New Mexico,58740,078-663-1236,6
+1231,Maureen,Newton,677 Cowley Parkway,San Diego,Maryland,71490,304-0499956,5
+1232,Edgar,Arnold,45 South White Clarendon Parkway,St. Louis,Michigan,78210,256-6204347,3
+1233,Tonia,Farrell,237 New Freeway,Columbus,Minnesota,59965,288-293-5908,5
+1234,Esteban,Brandt,60 West Rocky Hague Boulevard,Milwaukee,South Dakota,65606,590-477-8151,6
+1235,Guillermo,Burton,201 Nobel Avenue,Albuquerque,Washington,7175,597-7965993,7
+1236,Rhonda,Joyce,539 New Road,Arlington,Alabama,68146,2791161416,6
+1237,Matthew,Owens,58 Second Drive,Glendale,South Dakota,27373,332-5930320,4
+1238,Jimmie,Meyer,78 Second Parkway,Jacksonville,Delaware,81881,948-2950886,1
+1239,Clarence,Schroeder,80 Second Blvd.,Nashville,North Carolina,14739,967-3517911,6
+1240,Adriana,Vega,49 North Green Hague Avenue,Colorado,North Dakota,25343,373-3483207,6
+1241,Dorothy,Mc Lean,74 Clarendon Avenue,Madison,Texas,97025,416937-5246,6
+1242,Marie,Warren,642 South Milton Boulevard,Lincoln,New York,33961,3201965292,2
+1243,Steven,Mitchell,234 Hague Freeway,Birmingham,Vermont,32652,567-734-3241,4
+1244,Denise,Brewer,647 East Green Fabien Blvd.,Cincinnati,Nevada,20084,983-1703801,5
+1245,Alex,Andrade,963 Rocky Old Blvd.,Seattle,Mississippi,97857,138991-5234,6
+1246,Steve,Hunt,36 East Oak Road,Des Moines,Connecticut,64896,425-070-9142,6
+1247,Allison,Cameron,182 Hague Avenue,New York,Oklahoma,8914,5689326191,1
+1248,Bernard,Lutz,956 White Hague Way,San Francisco,Oklahoma,10091,877534-3261,1
+1249,Michele,Mc Bride,82 Second Way,San Antonio,Maryland,15327,084-827-1481,2
+1250,Howard,Black,83 Cowley Parkway,Tucson,Massachusetts,41840,567-622-8805,3
+1251,Kristina,Porter,715 Green Cowley St.,Madison,North Carolina,5290,081-481-9115,7
+1252,Gene,Franklin,34 Rocky Second Boulevard,Tampa,Oklahoma,7143,914-039-3938,7
+1253,Derick,Benitez,442 Cowley Blvd.,Anaheim,Virginia,85129,468-486-4523,1
+1254,Celeste,Stone,42 West Fabien St.,Shreveport,New Jersey,26533,160-7873097,3
+1255,Julio,Stein,56 Green Clarendon Street,Lincoln,Utah,43717,597617-3964,3
+1256,Jocelyn,Booth,357 East White Milton Freeway,Omaha,Massachusetts,42879,776-357-3980,7
+1257,Jamie,Dean,14 Green Hague Boulevard,Jackson,Nevada,22422,792467-9095,5
+1258,Irma,Snow,95 Clarendon Freeway,San Francisco,Maine,9526,593-8091721,1
+1259,Spencer,Smith,18 West Cowley Parkway,San Jose,Delaware,41794,695910-2647,1
+1260,Kelley,Levine,234 Milton Drive,Albuquerque,New Mexico,44102,3306987588,2
+1261,Trevor,Underwood,36 White Cowley Road,Dayton,Arkansas,9992,042459-6996,4
+1262,Belinda,Morales,30 East Second Street,Glendale,Kentucky,31609,896-8600800,5
+1263,Maurice,Donaldson,56 First Street,San Francisco,Pennsylvania,31518,363038945,6
+1264,Jamison,Barrera,571 South Oak St.,Wichita,Massachusetts,18183,075-568-7840,6
+1265,Stephan,Joseph,28 Milton Drive,Santa Ana,New Mexico,85308,104-4358470,6
+1266,Ty,Ayala,821 Nobel Way,Richmond,Michigan,23666,9835634495,2
+1267,Randal,Marsh,63 Old Road,Honolulu,Massachusetts,38847,391-376-2709,3
+1268,Jamie,Gallagher,932 North First Parkway,Long Beach,Indiana,61314,934-7738422,5
+1269,Demond,Romero,90 South Rocky Oak Avenue,San Antonio,New Hampshire,8649,101-2015361,3
+1270,Sammy,Huang,430 Clarendon Blvd.,Fremont,Colorado,36027,4507686322,4
+1271,Angie,Stark,732 White Nobel Boulevard,Jackson,South Dakota,40257,5108029455,5
+1272,Mathew,Bauer,115 South Rocky Fabien Freeway,Virginia Beach,Kansas,56719,423675-4702,6
+1273,Bryce,Hodges,80 South Rocky Cowley St.,Stockton,Maryland,16473,2696902510,4
+1274,Rhonda,Haas,513 Green Clarendon Street,Fremont,Wyoming,31370,318-349-2430,5
+1275,Peter,Chandler,943 Fabien Avenue,Colorado,New York,93012,701-4913894,1
+1276,Rusty,Grant,25 East Green Old Freeway,Long Beach,Vermont,53984,6765575119,5
+1277,Zachary,Graham,219 Oak St.,Tampa,Indiana,27788,4651396843,7
+1278,Brett,Lozano,94 Rocky Fabien Freeway,St. Paul,Montana,2683,424-2582705,3
+1279,Marco,Mullen,63 Green Second Parkway,Baton Rouge,Delaware,64870,2994929101,6
+1280,Damian,Osborne,697 South Clarendon Parkway,Charlotte,South Dakota,82670,864-524-7997,2
+1281,Gretchen,Shelton,60 East First Parkway,Rochester,Tennessee,40961,101-744-2403,5
+1282,Steven,Christian,418 South Second St.,Austin,Colorado,32880,463124-8634,3
+1283,Chrystal,Randall,806 Clarendon Boulevard,Oakland,Kansas,49749,2529602192,3
+1284,Veronica,Gordon,869 White Cowley Road,Honolulu,California,24118,096040-0561,6
+1285,Darla,Landry,79 West Green Old St.,Colorado,Virginia,34612,445-2107728,6
+1286,Aimee,Nash,980 Fabien Way,Atlanta,Illinois,55098,1463589168,3
+1287,Ginger,Vincent,239 North Hague Street,Fresno,Virginia,88773,169-606-0378,7
+1288,Debra,Knight,64 Hague Way,Birmingham,Kansas,63841,126-2803753,6
+1289,Sam,Escobar,896 Green Milton Drive,Spokane,Alaska,73150,278-1860867,4
+1290,Evelyn,Barr,510 Green Hague Boulevard,Cleveland,Wisconsin,61363,749-4477401,1
+1291,Tonia,Kline,947 Old Street,Honolulu,Tennessee,32684,7325569070,5
+1292,Hope,Bass,35 Second Parkway,Anchorage,Indiana,6927,6323507202,3
+1293,Cindy,Gray,87 Rocky Second Street,Tucson,Minnesota,46611,336-125-9920,5
+1294,Bart,Garrison,526 Fabien Road,Columbus,Michigan,40228,332-2280694,1
+1295,Derek,Lee,50 Nobel Road,Washington,Rhode Island,92375,853-652-5451,4
+1296,Marlon,Gates,126 Rocky Clarendon Parkway,Las Vegas,North Carolina,76171,490-6899485,4
+1297,Orlando,Phillips,34 East Clarendon Freeway,Baton Rouge,Arkansas,57211,372-206-8825,5
+1298,Jessica,Page,892 First Drive,Milwaukee,Arkansas,28882,230-2635193,5
+1299,Moses,Weeks,91 Green Milton St.,Fresno,Kentucky,76792,2020701773,6
+1300,Dominic,Foley,46 Hague Avenue,Portland,Delaware,7514,348-2392645,6
+1301,Rochelle,Calderon,18 North White Hague Blvd.,Arlington,Delaware,65699,850-850-4365,7
+1302,Kirsten,Webb,24 Green Hague Drive,Atlanta,Wisconsin,17569,318973-9579,2
+1303,Johanna,Olsen,799 New Way,Kansas,Oklahoma,4040,4830942902,1
+1304,Jana,Ramos,66 Green Hague Parkway,Albuquerque,Alaska,68316,474-3246328,6
+1305,Salvador,Waller,748 East Green First Blvd.,Spokane,West Virginia,14732,255-4839917,1
+1306,Elaine,Pace,396 Cowley Drive,Portland,Arizona,39852,600-9615689,3
+1307,Virgil,Mc Intyre,89 White New Boulevard,Dayton,Mississippi,53947,006519-7580,1
+1308,Kent,Hampton,44 Hague Road,Boston,Arkansas,67749,574-713-8353,3
+1309,Isaac,Frost,287 White Second Blvd.,Jersey,Connecticut,79741,835-581-1408,5
+1310,Garry,Pham,808 Cowley Blvd.,Yonkers,Alabama,7156,8731393766,7
+1311,Tomas,Sloan,164 Cowley Blvd.,Virginia Beach,Ohio,81466,642353-6041,1
+1312,Scot,Mack,790 Hague Avenue,Toledo,Nebraska,16984,054356-7424,6
+1313,Lea,Compton,26 Oak Parkway,Seattle,Maine,19516,713-956-7225,6
+1314,Kendra,Villarreal,29 East Cowley Freeway,Yonkers,West Virginia,84084,087-282-9030,6
+1315,Claude,Day,51 Green Clarendon Street,Cincinnati,Nevada,27106,1557547852,6
+1316,Bryant,Singleton,68 Rocky Nobel Avenue,Minneapolis,Kentucky,43774,218024-4769,6
+1317,Emma,Holden,28 Green Hague Avenue,Los Angeles,Arizona,7539,819424-7809,5
+1318,Olivia,Bates,929 Oak Boulevard,Montgomery,Delaware,26750,1100920821,2
+1319,Ralph,Aguirre,570 Rocky Milton Parkway,Des Moines,Minnesota,94289,154-748-0426,2
+1320,Lydia,Arias,83 West Nobel Road,Dallas,Oregon,29527,556-6696753,2
+1321,Marcella,Clarke,586 Green Fabien Parkway,Detroit,Utah,89331,567-639-8989,6
+1322,Esther,Chambers,93 Rocky Nobel Blvd.,Seattle,North Dakota,31632,8682215420,6
+1323,Kristi,Tucker,99 East Green Second Parkway,Tacoma,Louisiana,30070,6354100035,7
+1324,Jaime,Morales,97 Rocky Fabien Avenue,Fresno,Florida,31435,052-6501580,1
+1325,Meredith,Hubbard,695 New Parkway,San Francisco,Missouri,78730,301084745,1
+1326,Reginald,Bradshaw,630 Rocky Nobel Road,Colorado,Michigan,41463,153-458-4037,3
+1327,Rosa,Bell,125 South Second Street,Santa Ana,Pennsylvania,36477,577-6465358,5
+1328,Grace,Duran,24 White Cowley Blvd.,Fort Worth,Georgia,28018,522-255-1650,4
+1329,Francis,Leach,272 Cowley Parkway,Arlington,North Carolina,60482,445-675-4141,5
+1330,Tomas,Blevins,907 East Fabien Avenue,Akron,Delaware,80396,129-590-3927,2
+1331,Donna,Cunningham,628 West Clarendon Way,Santa Ana,Ohio,56011,1233347962,4
+1332,Dale,Calderon,717 West First Blvd.,Arlington,North Carolina,58847,522311-6430,6
+1333,Marcy,Lane,19 East Green Cowley Avenue,Raleigh,Alaska,37194,434-261-5543,5
+1334,Glenn,Ball,416 First Way,Hialeah,California,52756,161-1965436,6
+1335,Krista,Tapia,94 Rocky Nobel Street,Denver,Wisconsin,24706,1640732232,7
+1336,Mindy,Hickman,251 East Oak Drive,Shreveport,Indiana,26112,334-058-9814,2
+1337,Kristine,Shepard,763 Cowley Boulevard,Yonkers,Maine,11355,915-2859989,6
+1338,Lakesha,Lawson,95 Rocky Clarendon Drive,Glendale,Illinois,64407,6943932494,4
+1339,Jolene,Raymond,22 Cowley Parkway,Nashville,Wisconsin,3442,963-7012680,5
+1340,Cory,Griffith,82 Green Oak Blvd.,Omaha,Arizona,23652,415669-7139,6
+1341,Nancy,Ruiz,25 South White Oak Way,Spokane,Kentucky,38848,700-401-1952,4
+1342,Herman,Sampson,54 Green Old Parkway,New Orleans,Minnesota,2711,062-901-9457,4
+1343,Juan,Cardenas,43 Milton Avenue,Greensboro,Arkansas,42503,691-493-7111,3
+1344,Becky,Logan,30 South Green Nobel Blvd.,Sacramento,Maryland,43664,162195-3124,1
+1345,Terence,Vasquez,566 Milton Street,Dallas,Alaska,53348,683445-9976,3
+1346,Kenneth,Ryan,67 East Hague Avenue,Boston,Oklahoma,51043,586708-7632,7
+1347,Marvin,Greene,18 West White Old Drive,Garland,Illinois,6411,4007810628,7
+1348,Jamey,Bishop,79 Rocky Clarendon St.,Virginia Beach,West Virginia,40764,395-727-1748,1
+1349,Chanda,Waller,69 New Avenue,Milwaukee,South Carolina,5252,392958-6517,7
+1350,Terri,Mc Guire,99 East Rocky Second Way,Fort Worth,Georgia,57030,564-4729149,6
+1351,Cornelius,Jacobs,713 Rocky Oak St.,Jacksonville,New Mexico,63035,994-5066596,2
+1352,Nicholas,O'Connell,615 Rocky Hague Street,Honolulu,Oregon,26561,428317-3972,3
+1353,Tyrone,Gregory,67 South Green Clarendon Parkway,Shreveport,Missouri,86623,246853-0598,6
+1354,Aimee,Kirby,97 East New Drive,Oklahoma,Delaware,33431,693808-2819,7
+1355,Veronica,Snyder,25 East Milton St.,Minneapolis,Arkansas,9446,341-4305454,7
+1356,Helen,Johnston,382 Fabien Freeway,Anchorage,West Virginia,13336,1017334366,1
+1357,Bridgett,Lutz,73 West Oak Blvd.,Washington,Iowa,756,275-975-6564,1
+1358,Wayne,May,308 Rocky Nobel Parkway,Anchorage,Virginia,44403,125791253,4
+1359,Derick,Thornton,161 Green First Boulevard,Shreveport,Missouri,52166,3483255544,3
+1360,Manuel,Bailey,44 Second Street,Santa Ana,Rhode Island,7011,380-541-4690,6
+1361,Gavin,Gutierrez,111 South Milton St.,Oakland,Arizona,95168,NULL,3
+1362,Julian,Odom,368 Clarendon Drive,Birmingham,West Virginia,73155,619456-4435,6
+1363,Tameka,Jensen,430 Rocky New St.,Greensboro,Hawaii,73188,2624280640,4
+1364,Greg,Daniel,307 Cowley Blvd.,Long Beach,South Carolina,74794,714-2530405,2
+1365,Lloyd,Dunlap,93 Oak Avenue,Memphis,Utah,73455,2625538044,3
+1366,Bernard,Valencia,420 Oak Road,New York,Georgia,28798,729440-7715,5
+1367,Antoine,Mcclain,158 White New Way,Buffalo,Virginia,37054,450-065-4786,7
+1368,Rafael,Fields,607 First St.,Dallas,Wyoming,66717,116-070-2489,2
+1369,Clayton,Tate,531 Cowley Road,St. Petersburg,Indiana,97350,7361867318,5
+1370,Kathryn,Tapia,763 Oak Blvd.,Detroit,North Dakota,10106,5686586730,1
+1371,Trina,Cannon,465 Clarendon Parkway,Kansas,Pennsylvania,66196,783-517-0800,5
+1372,Shirley,Gordon,87 Old Street,San Diego,Alabama,11509,509-4136963,7
+1373,Guy,Ford,344 North Old Way,Arlington,Washington,75424,1249341707,6
+1374,Grace,Day,184 Clarendon Drive,Mobile,Nevada,50516,926-8673561,7
+1375,Alonzo,Hatfield,92 Rocky New Street,Stockton,New York,32745,407-6998970,6
+1376,Evan,Benton,932 Rocky Hague Blvd.,Memphis,Louisiana,44331,9543856281,3
+1377,Sarah,Harris,80 Second Way,Phoenix,Colorado,34883,660-5048300,4
+1378,Ruben,Solis,689 Rocky New Road,St. Paul,New Mexico,57413,120336-7325,2
+1379,Chadwick,Vance,638 South Oak Freeway,Baton Rouge,Illinois,74295,500781-6257,7
+1380,Sergio,Mc Cormick,52 Green Fabien Parkway,Lincoln,Mississippi,52121,168-3231171,4
+1381,Sonia,Valentine,753 Old Boulevard,Norfolk,Nebraska,89982,4409348514,6
+1382,Todd,Baker,214 Green Old Boulevard,Stockton,California,38085,265-323-4629,1
+1383,Danny,Ramsey,743 East First Boulevard,Greensboro,New York,41073,924-3651879,7
+1384,Damion,Cisneros,18 North Rocky Nobel Road,Glendale,Minnesota,70623,697-945-2026,4
+1385,Marsha,Mc Millan,144 Nobel Boulevard,Riverside,New York,24564,177-495-8972,1
+1386,Kris,Kent,410 Old Road,Atlanta,North Dakota,43608,889-2987375,3
+1387,Jorge,Washington,98 Clarendon Way,Stockton,Alaska,94033,6319337760,7
+1388,Dylan,Cook,863 North Green Cowley Way,Austin,Utah,4484,273-390-0110,2
+1389,Derrick,French,651 Cowley Way,Grand Rapids,Montana,42166,464-1269918,7
+1390,Allan,Robertson,27 Clarendon Road,Aurora,Wyoming,44027,450-5997703,7
+1391,Roberta,Keller,795 West Rocky Fabien Blvd.,Des Moines,Nevada,4346,179-7292399,4
+1392,Meghan,Giles,71 Green First Boulevard,Anchorage,North Carolina,63639,6208421029,6
+1393,Rafael,Sparks,89 South Rocky Cowley Street,Aurora,Texas,89478,124-2951107,3
+1394,Cecil,Harvey,94 West White Old Street,Shreveport,Nebraska,95773,954-1970625,6
+1395,Sherrie,Carey,853 North White Cowley Blvd.,Aurora,South Dakota,18363,692-5178197,4
+1396,Darrick,Sexton,761 Clarendon Road,Richmond,Indiana,6779,358-331-1584,6
+1397,Keisha,Dickson,397 Clarendon Freeway,New York,Arizona,46736,217397-8103,4
+1398,Franklin,Nicholson,271 Second St.,Honolulu,Vermont,22838,4842589910,1
+1399,Claire,Lucero,86 Cowley Street,Denver,Virginia,6277,945-657-0498,3
+1400,Tammie,Silva,946 Second St.,St. Petersburg,Vermont,36805,462-8935753,7
+1401,Marty,Cummings,24 Second Parkway,Fresno,Alaska,92409,326-160-0520,5
+1402,Ronald,Mcfarland,62 New Boulevard,Honolulu,Indiana,99406,181-106-8301,3
+1403,Emma,Stevens,64 South Rocky First Boulevard,Newark,South Carolina,6228,1664483943,1
+1404,Veronica,Benitez,261 Rocky Second Way,Montgomery,Kentucky,34388,157-0515876,5
+1405,Kerry,Cook,469 White Hague Boulevard,Aurora,Arizona,45097,919649-5145,2
+1406,Trisha,Montgomery,11 South Old Boulevard,Tampa,Hawaii,64413,220-9409302,6
+1407,Tamiko,George,911 Milton Boulevard,Sacramento,Alabama,52523,8192555430,3
+1408,Mandy,Chavez,738 New Way,Buffalo,Oklahoma,67823,923-709-6437,4
+1409,Iris,Banks,41 Nobel Avenue,Detroit,Minnesota,539,1165093158,5
+1410,Earnest,Mendez,145 Oak Freeway,St. Louis,Vermont,5225,566737-0096,6
+1411,Stacy,Gallegos,290 Old Drive,Oakland,South Dakota,57459,784-216-7269,7
+1412,Rudy,Herman,879 Fabien Way,Cleveland,Mississippi,52365,352-5887134,2
+1413,Raymond,Boyle,314 Rocky Hague Street,Fremont,Nevada,98535,5860578534,2
+1414,Lori,Keith,58 South White New Street,Greensboro,Missouri,4027,407-730-7856,7
+1415,Erica,Maldonado,390 Rocky Hague Boulevard,Akron,Massachusetts,60855,100-044-7241,3
+1416,Kimberly,Wilkinson,90 Rocky Old Parkway,Hialeah,Wyoming,4364,5636161138,7
+1417,Lakeisha,Yates,135 Cowley Road,St. Louis,Rhode Island,88997,6807201600,7
+1418,Harvey,Liu,93 Hague Way,Las Vegas,Connecticut,24197,879-3529053,2
+1419,Jonathon,Braun,470 Rocky First Freeway,Tulsa,North Dakota,71082,681-2517216,5
+1420,Tina,Graves,41 Hague Way,Detroit,Michigan,70622,082-859-5748,4
+1421,Terri,Kirby,59 Green Second Avenue,Newark,New Hampshire,38245,883-743-5050,5
+1422,Latanya,Townsend,189 Fabien Blvd.,Norfolk,Hawaii,26394,531626-2601,7
+1423,Damion,Reeves,60 Cowley Boulevard,Cincinnati,Missouri,48781,568-620-9627,1
+1424,Craig,Hester,19 Green Cowley Avenue,Indianapolis,Idaho,77073,639-412-4495,1
+1425,Amie,Ferguson,556 New Blvd.,Fort Wayne,Vermont,70935,265-5632277,2
+1426,Gerard,O'Connor,973 Hague Freeway,Fort Wayne,Indiana,21800,621878-9841,2
+1427,Tracey,Leon,921 Rocky Oak Parkway,Portland,Hawaii,906,967-066-7703,1
+1428,Julio,Coffey,21 East Clarendon Street,Tucson,Nevada,86038,680-7806462,1
+1429,Micah,Valdez,833 Milton Freeway,Seattle,North Dakota,70822,821440-7807,6
+1430,Trent,Tanner,748 Rocky Old St.,Indianapolis,Texas,3335,056788-4951,1
+1431,Luis,Serrano,44 South White Cowley St.,Hialeah,Alabama,8408,566-393-4157,6
+1432,Norma,Vaughn,56 Hague Freeway,Houston,Vermont,40957,520-6650553,4
+1433,Traci,Russell,116 Green Cowley Avenue,Raleigh,New Hampshire,53388,1066436778,6
+1434,Ronald,Bright,798 White Milton Drive,Dallas,Colorado,14689,629-373-4675,1
+1435,Vincent,Haynes,79 White First St.,Little Rock,Illinois,93925,961543-7419,2
+1436,Charlotte,Solomon,37 West Green Nobel Drive,Boston,Minnesota,38888,429-608-5427,3
+1437,Terrell,Gross,677 Clarendon Drive,Houston,Texas,66921,579-216-2614,7
+1438,Antoine,Stuart,54 East White Nobel Street,Phoenix,Ohio,77832,919965-9701,1
+1439,Alan,Horton,95 Rocky Nobel Street,El Paso,Florida,32467,1061244521,5
+1440,Thomas,Meza,355 North Green First Way,Honolulu,Illinois,8121,077046-1803,3
+1441,Rafael,Contreras,50 First Blvd.,Memphis,Colorado,26970,661-5783903,4
+1442,Damion,Branch,67 North Green Cowley Boulevard,Austin,Washington,82339,946193-4195,4
+1443,Carmen,Keller,45 Green Clarendon Drive,Pittsburgh,Minnesota,63494,305553-0983,7
+1444,Allen,Hurley,78 South Milton Road,Lincoln,Kansas,99204,185-6663400,6
+1445,Summer,Johnston,292 New Boulevard,Garland,Pennsylvania,43676,032365-3086,1
+1446,Monica,Huynh,84 West Rocky Old Parkway,Kansas,Arkansas,91953,2144986901,1
+1447,Cheryl,Chang,98 White New Way,Louisville,Florida,26807,226-3010542,3
+1448,Clifton,Blevins,89 Fabien Blvd.,Richmond,Hawaii,53631,116343-9937,6
+1449,Misti,Sullivan,810 Cowley St.,St. Paul,Tennessee,29462,6676683341,7
+1450,Ricky,Bautista,16 Hague Boulevard,Arlington,Alabama,92174,708-3607014,6
+1451,Randal,Taylor,549 Cowley St.,Arlington,Missouri,32744,107-425-1555,1
+1452,Anne,Barajas,98 White Hague Street,Stockton,Colorado,42012,283-1155997,7
+1453,Christi,Franco,128 North New St.,Denver,New Mexico,71057,920210-5605,6
+1454,Sara,Mc Intyre,25 White Oak Freeway,Oakland,Oklahoma,95856,059-8182378,1
+1455,Roxanne,Bonilla,690 Milton Parkway,Anchorage,Colorado,42062,103-4043309,2
+1456,Stephen,Durham,53 Fabien Avenue,Glendale,Wyoming,5166,690865-9174,1
+1457,Billy,Little,44 Rocky First St.,Bakersfield,Kansas,89720,787-472-8954,1
+1458,Chanda,Hogan,875 South White Fabien Way,Columbus,Connecticut,64879,883834-3717,7
+1459,Kim,Guerrero,873 Old Way,Washington,New York,24298,536795-3103,3
+1460,Jake,Golden,603 Nobel Way,Colorado,Wyoming,72714,493010-1272,4
+1461,Tony,Gilmore,98 East New Street,Detroit,Rhode Island,71292,645-2054711,5
+1462,Cari,Ortega,616 North Green Oak Blvd.,Anaheim,Pennsylvania,23881,2783236041,4
+1463,Jamie,Schneider,72 Green Fabien Boulevard,Hialeah,New York,7804,771-7585907,4
+1464,Christine,Flynn,943 North Cowley Blvd.,Long Beach,Idaho,54110,267-2423618,5
+1465,Christian,Tate,22 Rocky Hague Road,San Antonio,Michigan,97536,674-864-0050,7
+1466,Elisabeth,Burns,34 White Nobel Drive,Charlotte,Wisconsin,69556,024-696-0678,3
+1467,Molly,Matthews,422 Fabien Road,St. Louis,Massachusetts,21976,293-4649834,5
+1468,Angelia,Kerr,106 Milton Freeway,Tampa,Wisconsin,60167,929-303-0124,2
+1469,Tammi,Dixon,61 Green Oak Parkway,Greensboro,Illinois,94858,NULL,1
+1470,April,Mann,70 Rocky Oak St.,Lubbock,Delaware,37213,NULL,6
+1471,Janine,Melendez,23 South Rocky Oak Drive,Spokane,Nebraska,52007,892-754-8522,5
+1472,Marlene,Barry,760 Milton Parkway,Houston,Hawaii,38514,154-1605813,6
+1473,Erica,Strong,471 White Cowley Parkway,Glendale,Alabama,37953,220359-2480,6
+1474,Iris,Spears,91 Old Way,St. Paul,Mississippi,39932,7158386781,6
+1475,Cecilia,Ramos,69 New Street,Arlington,Utah,84228,5789969693,1
+1476,Daniel,Steele,153 White Clarendon Parkway,Jersey,Louisiana,38953,081282-3457,1
+1477,Kisha,Rich,452 Second Boulevard,San Antonio,Kentucky,39294,722-452-6672,4
+1478,Steven,Quinn,293 Green Oak Avenue,Corpus Christi,Indiana,92042,9387035766,6
+1479,Dexter,Fuller,308 North White Milton Street,Riverside,Maryland,611,092363-7903,7
+1480,Eddie,Fleming,896 South White First Avenue,Fort Worth,Rhode Island,9979,155621-4402,3
+1481,Lesley,Gonzales,954 West Old Parkway,San Antonio,New Jersey,6890,290-320-9429,2
+1482,Lorie,Murphy,99 Rocky Old Road,Arlington,Mississippi,21520,256-983-8736,1
+1483,Kate,White,95 Green Milton Street,Tucson,Wyoming,6618,585940-4734,4
+1484,Mandi,Ross,427 North First Road,St. Petersburg,West Virginia,30188,510-5065391,1
+1485,Candace,Farmer,99 East Clarendon Freeway,Louisville,North Dakota,10148,528-571-6853,1
+1486,Mathew,Spears,73 Green First Boulevard,Austin,Montana,71480,205-4856794,1
+1487,Shad,Stanley,634 First Blvd.,Grand Rapids,New Jersey,99157,866-3066263,4
+1488,Melvin,Brock,821 Milton Way,Arlington,Idaho,92437,076-801-0504,2
+1489,Tami,Wolfe,916 White First Drive,New Orleans,Georgia,30652,6094955067,3
+1490,Chanda,Good,233 Second Blvd.,New Orleans,Virginia,49100,780452-2196,7
+1491,Terrell,Cisneros,58 North Milton St.,Sacramento,Ohio,32617,202-6621132,6
+1492,Evelyn,Adkins,102 Rocky Oak Street,Nashville,North Dakota,23440,842-525-8924,4
+1493,Julio,Leblanc,33 Nobel Parkway,Little Rock,Arizona,51338,7463283415,6
+1494,Constance,Conley,12 Second Parkway,Newark,Arkansas,94958,912222-7959,3
+1495,Melissa,Miranda,28 Old Road,Portland,Oregon,22619,122-879-9719,6
+1496,Gabrielle,Pierce,74 Fabien Avenue,Houston,Wisconsin,15740,8875976597,7
+1497,Ginger,O'Neill,83 Green Clarendon Boulevard,Colorado,Alabama,24848,877-033-1315,1
+1498,Ramon,Rubio,13 West Old St.,Santa Ana,Texas,50935,8949624432,1
+1499,Frank,Walls,952 White Nobel Road,Cincinnati,Indiana,9171,981-326-7739,6

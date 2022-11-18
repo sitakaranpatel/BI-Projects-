@@ -1,0 +1,500 @@
+OrderID,CustomerID,SKU,Description,Cost,Year_Purchase
+201901,1001,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,139,2019
+201902,1002,BAS-24-1 C,Basic Switch 10/100/1000 BaseT 24 port,51,2021
+201903,1003,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,190,2021
+201904,1004,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,247,2021
+201905,1005,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,254,2019
+201906,1006,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,74,2020
+201907,1007,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,87,2018
+201908,1008,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,129,2019
+201909,1009,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,167,2020
+201910,1010,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,159,2021
+201911,1011,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,250,2018
+201912,1012,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,174,2018
+201913,1013,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,35,2021
+201914,1014,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,285,2018
+201915,1015,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,120,2020
+201916,1016,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,24,2020
+201917,1017,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,60,2018
+201918,1018,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,197,2018
+201919,1019,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,103,2018
+201920,1020,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,41,2021
+201921,1021,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,146,2019
+201922,1022,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,13,2021
+201923,1023,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,209,2019
+201924,1024,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,282,2018
+201925,1025,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,94,2018
+201926,1026,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,92,2019
+201927,1027,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,196,2019
+201928,1028,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,254,2021
+201929,1029,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,191,2021
+201930,1030,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,115,2019
+201931,1031,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,190,2020
+201932,1032,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,59,2021
+201933,1033,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,230,2018
+201934,1034,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,139,2021
+201935,1035,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,92,2020
+201936,1036,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,161,2020
+201937,1037,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,69,2021
+201938,1038,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,75,2020
+201939,1039,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,98,2018
+201940,1040,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,108,2021
+201941,1041,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,140,2018
+201942,1042,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,79,2021
+201943,1043,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,119,2021
+201944,1044,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,188,2021
+201945,1045,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,60,2019
+201946,1046,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,132,2019
+201947,1047,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,217,2019
+201948,1048,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,236,2018
+201949,1049,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,116,2019
+201950,1050,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,15,2020
+201951,1051,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,229,2020
+201952,1052,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,40,2020
+201953,1053,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,99,2018
+201954,1054,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,161,2018
+201955,1055,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,192,2018
+201956,1056,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,95,2019
+201957,1057,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,124,2020
+201958,1058,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,253,2018
+201959,1059,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,268,2020
+201960,1060,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,16,2020
+201961,1061,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,230,2018
+201962,1062,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,222,2018
+201963,1063,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,261,2021
+201964,1064,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,108,2019
+201965,1065,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,267,2019
+201966,1066,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,234,2018
+201967,1067,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,69,2021
+201968,1068,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,98,2020
+201969,1069,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,35,2020
+201970,1070,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,264,2021
+201971,1071,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,55,2020
+201972,1072,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,231,2020
+201973,1073,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,174,2021
+201974,1074,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,78,2020
+201975,1075,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,224,2018
+201976,1076,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,226,2020
+201977,1077,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,188,2020
+201978,1078,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,87,2021
+201979,1079,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,172,2018
+201980,1080,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,160,2020
+201981,1081,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,25,2019
+201982,1082,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,23,2021
+201983,1083,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,5,2018
+201984,1084,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,78,2018
+201985,1085,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,232,2021
+201986,1086,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,227,2019
+201987,1087,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,57,2020
+201988,1088,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,152,2018
+201989,1089,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,87,2019
+201990,1090,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,97,2020
+201991,1091,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,63,2018
+201992,1092,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,224,2020
+201993,1093,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,219,2019
+201994,1094,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,33,2020
+201995,1095,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,8,2018
+201996,1096,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,90,2018
+201997,1097,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,49,2020
+201998,1098,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,238,2021
+201999,1099,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,14,2019
+202000,1100,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,124,2020
+202001,1101,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,198,2019
+202002,1102,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,231,2020
+202003,1103,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,269,2021
+202004,1104,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,192,2021
+202005,1105,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,126,2019
+202006,1106,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,137,2019
+202007,1107,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,231,2019
+202008,1108,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,253,2018
+202009,1109,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,262,2018
+202010,1110,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,11,2020
+202011,1111,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,162,2018
+202012,1112,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,50,2021
+202013,1113,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,201,2018
+202014,1114,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,285,2018
+202015,1115,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,79,2019
+202016,1116,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,230,2021
+202017,1117,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,226,2021
+202018,1118,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,122,2019
+202019,1119,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,224,2019
+202020,1120,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,11,2021
+202021,1121,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,117,2021
+202022,1122,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,148,2019
+202023,1123,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,20,2020
+202024,1124,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,189,2019
+202025,1125,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,101,2021
+202026,1126,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,281,2019
+202027,1127,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,205,2019
+202028,1128,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,294,2020
+202029,1129,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,172,2020
+202030,1130,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,48,2019
+202031,1131,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,292,2019
+202032,1132,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,52,2021
+202033,1133,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,78,2019
+202034,1134,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,120,2018
+202035,1135,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,261,2018
+202036,1136,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,88,2018
+202037,1137,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,167,2019
+202038,1138,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,111,2018
+202039,1139,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,6,2018
+202040,1140,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,166,2019
+202041,1141,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,226,2019
+202042,1142,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,263,2021
+202043,1143,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,44,2021
+202044,1144,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,146,2021
+202045,1145,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,105,2018
+202046,1146,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,123,2018
+202047,1147,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,70,2018
+202048,1148,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,208,2019
+202049,1149,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,273,2021
+202050,1150,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,46,2021
+202051,1151,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,157,2021
+202052,1152,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,33,2020
+202053,1153,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,80,2019
+202054,1154,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,36,2021
+202055,1155,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,157,2021
+202056,1156,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,185,2020
+202057,1157,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,45,2019
+202058,1158,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,113,2018
+202059,1159,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,26,2019
+202060,1160,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,277,2020
+202061,1161,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,133,2021
+202062,1162,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,246,2018
+202063,1163,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,108,2018
+202064,1164,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,61,2020
+202065,1165,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,281,2020
+202066,1166,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,112,2021
+202067,1167,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,260,2019
+202068,1168,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,191,2020
+202069,1169,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,237,2020
+202070,1170,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,114,2018
+202071,1171,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,285,2021
+202072,1172,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,75,2019
+202073,1173,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,264,2020
+202074,1174,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,294,2021
+202075,1175,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,44,2019
+202076,1176,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,127,2020
+202077,1177,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,73,2021
+202078,1178,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,144,2020
+202079,1179,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,206,2020
+202080,1180,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,109,2020
+202081,1181,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,187,2018
+202082,1182,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,234,2018
+202083,1183,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,277,2018
+202084,1184,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,169,2020
+202085,1185,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,294,2020
+202086,1186,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,292,2020
+202087,1187,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,57,2021
+202088,1188,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,284,2020
+202089,1189,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,32,2020
+202090,1190,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,135,2018
+202091,1191,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,167,2019
+202092,1192,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,94,2019
+202093,1193,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,125,2020
+202094,1194,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,182,2018
+202095,1195,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,266,2020
+202096,1196,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,94,2020
+202097,1197,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,166,2018
+202098,1198,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,156,2020
+202099,1199,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,135,2021
+202100,1200,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,26,2021
+202101,1201,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,125,2019
+202102,1202,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,268,2020
+202103,1203,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,164,2019
+202104,1204,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,212,2021
+202105,1205,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,249,2021
+202106,1206,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,288,2019
+202107,1207,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,235,2021
+202108,1208,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,44,2019
+202109,1209,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,173,2019
+202110,1210,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,64,2021
+202111,1211,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,145,2021
+202112,1212,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,207,2019
+202113,1213,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,78,2020
+202114,1214,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,53,2018
+202115,1215,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,81,2020
+202116,1216,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,241,2020
+202117,1217,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,297,2021
+202118,1218,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,49,2021
+202119,1219,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,166,2020
+202120,1220,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,34,2019
+202121,1221,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,36,2019
+202122,1222,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,221,2019
+202123,1223,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,70,2018
+202124,1224,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,45,2019
+202125,1225,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,116,2018
+202126,1226,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,6,2020
+202127,1227,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,201,2021
+202128,1228,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,234,2021
+202129,1229,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,106,2019
+202130,1230,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,80,2021
+202131,1231,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,242,2018
+202132,1232,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,19,2020
+202133,1233,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,32,2020
+202134,1234,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,98,2018
+202135,1235,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,289,2020
+202136,1236,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,130,2021
+202137,1237,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,4,2021
+202138,1238,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,273,2021
+202139,1239,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,159,2021
+202140,1240,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,237,2020
+202141,1241,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,157,2021
+202142,1242,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,262,2019
+202143,1243,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,12,2018
+202144,1244,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,196,2020
+202145,1245,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,248,2018
+202146,1246,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,262,2019
+202147,1247,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,279,2018
+202148,1248,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,237,2020
+202149,1249,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,47,2018
+202150,1250,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,129,2019
+202151,1251,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,265,2018
+202152,1252,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,107,2018
+202153,1253,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,114,2018
+202154,1254,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,175,2020
+202155,1255,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,119,2020
+202156,1256,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,201,2019
+202157,1257,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,242,2020
+202158,1258,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,161,2021
+202159,1259,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,148,2020
+202160,1260,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,92,2020
+202161,1261,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,124,2018
+202162,1262,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,119,2020
+202163,1263,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,136,2018
+202164,1264,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,214,2019
+202165,1265,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,129,2018
+202166,1266,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,207,2021
+202167,1267,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,222,2019
+202168,1268,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,46,2020
+202169,1269,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,63,2020
+202170,1270,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,224,2018
+202171,1271,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,285,2019
+202172,1272,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,62,2019
+202173,1273,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,162,2021
+202174,1274,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,34,2018
+202175,1275,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,290,2018
+202176,1276,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,63,2021
+202177,1277,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,129,2020
+202178,1278,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,119,2019
+202179,1279,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,30,2020
+202180,1280,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,214,2018
+202181,1281,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,247,2021
+202182,1282,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,290,2019
+202183,1283,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,299,2018
+202184,1284,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,46,2018
+202185,1285,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,260,2020
+202186,1286,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,290,2018
+202187,1287,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,211,2021
+202188,1288,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,78,2020
+202189,1289,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,129,2020
+202190,1290,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,20,2021
+202191,1291,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,252,2020
+202192,1292,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,129,2020
+202193,1293,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,171,2021
+202194,1294,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,22,2021
+202195,1295,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,247,2018
+202196,1296,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,135,2021
+202197,1297,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,236,2018
+202198,1298,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,232,2020
+202199,1299,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,261,2018
+202200,1300,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,42,2019
+202201,1301,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,282,2020
+202202,1302,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,60,2020
+202203,1303,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,228,2019
+202204,1304,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,274,2021
+202205,1305,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,224,2020
+202206,1306,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,202,2020
+202207,1307,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,174,2021
+202208,1308,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,248,2021
+202209,1309,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,27,2021
+202210,1310,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,107,2018
+202211,1311,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,56,2019
+202212,1312,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,17,2019
+202213,1313,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,152,2021
+202214,1314,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,235,2020
+202215,1315,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,95,2021
+202216,1316,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,202,2018
+202217,1317,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,296,2019
+202218,1318,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,281,2019
+202219,1319,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,226,2021
+202220,1320,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,72,2019
+202221,1321,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,262,2018
+202222,1322,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,37,2018
+202223,1323,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,281,2021
+202224,1324,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,291,2021
+202225,1325,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,266,2019
+202226,1326,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,297,2019
+202227,1327,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,179,2018
+202228,1328,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,23,2019
+202229,1329,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,135,2019
+202230,1330,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,211,2019
+202231,1331,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,279,2019
+202232,1332,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,37,2019
+202233,1333,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,174,2021
+202234,1334,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,188,2020
+202235,1335,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,9,2021
+202236,1336,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,78,2020
+202237,1337,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,20,2018
+202238,1338,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,45,2019
+202239,1339,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,237,2019
+202240,1340,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,76,2018
+202241,1341,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,288,2020
+202242,1342,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,259,2021
+202243,1343,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,30,2019
+202244,1344,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,112,2020
+202245,1345,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,13,2019
+202246,1346,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,171,2018
+202247,1347,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,16,2018
+202248,1348,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,277,2021
+202249,1349,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,139,2019
+202250,1350,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,266,2021
+202251,1351,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,215,2021
+202252,1352,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,262,2019
+202253,1353,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,277,2018
+202254,1354,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,279,2019
+202255,1355,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,81,2020
+202256,1356,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,57,2019
+202257,1357,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,38,2021
+202258,1358,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,60,2020
+202259,1359,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,146,2020
+202260,1360,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,167,2020
+202261,1361,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,61,2018
+202262,1362,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,60,2020
+202263,1363,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,154,2020
+202264,1364,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,93,2021
+202265,1365,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,216,2019
+202266,1366,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,241,2019
+202267,1367,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,126,2019
+202268,1368,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,101,2018
+202269,1369,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,199,2019
+202270,1370,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,227,2019
+202271,1371,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,234,2018
+202272,1372,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,73,2020
+202273,1373,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,253,2019
+202274,1374,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,253,2021
+202275,1375,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,212,2018
+202276,1376,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,38,2020
+202277,1377,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,126,2018
+202278,1378,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,104,2021
+202279,1379,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,118,2020
+202280,1380,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,13,2018
+202281,1381,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,144,2021
+202282,1382,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,279,2021
+202283,1383,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,294,2021
+202284,1384,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,126,2021
+202285,1385,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,59,2020
+202286,1386,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,281,2021
+202287,1387,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,282,2020
+202288,1388,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,95,2021
+202289,1389,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,254,2021
+202290,1390,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,126,2021
+202291,1391,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,198,2021
+202292,1392,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,41,2018
+202293,1393,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,207,2021
+202294,1394,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,226,2021
+202295,1395,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,66,2018
+202296,1396,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,297,2019
+202297,1397,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,171,2021
+202298,1398,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,81,2019
+202299,1399,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,132,2018
+202300,1400,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,154,2021
+202301,1401,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,69,2018
+202302,1402,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,107,2021
+202303,1403,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,207,2018
+202304,1404,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,104,2021
+202305,1405,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,188,2018
+202306,1406,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,245,2021
+202307,1407,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,266,2020
+202308,1408,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,80,2018
+202309,1409,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,130,2021
+202310,1410,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,138,2020
+202311,1411,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,138,2020
+202312,1412,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,134,2019
+202313,1413,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,185,2021
+202314,1414,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,78,2020
+202315,1415,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,2,2021
+202316,1416,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,165,2021
+202317,1417,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,283,2021
+202318,1418,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,58,2020
+202319,1419,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,66,2019
+202320,1420,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,207,2018
+202321,1421,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,51,2019
+202322,1422,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,129,2020
+202323,1423,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,5,2021
+202324,1424,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,219,2020
+202325,1425,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,4,2021
+202326,1426,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,83,2020
+202327,1427,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,19,2020
+202328,1428,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,181,2018
+202329,1429,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,217,2021
+202330,1430,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,227,2018
+202331,1431,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,246,2019
+202332,1432,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,290,2018
+202333,1433,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,153,2019
+202334,1434,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,17,2020
+202335,1435,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,35,2020
+202336,1436,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,111,2021
+202337,1437,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,297,2018
+202338,1438,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,171,2021
+202339,1439,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,277,2021
+202340,1440,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,193,2019
+202341,1441,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,103,2018
+202342,1442,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,249,2020
+202343,1443,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,100,2019
+202344,1444,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,52,2020
+202345,1445,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,256,2021
+202346,1446,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,207,2021
+202347,1447,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,9,2020
+202348,1448,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,34,2018
+202349,1449,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,114,2021
+202350,1450,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,126,2021
+202351,1451,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,204,2019
+202352,1452,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,59,2018
+202353,1453,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,37,2020
+202354,1454,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,48,2018
+202355,1455,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,262,2019
+202356,1456,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,39,2021
+202357,1457,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,147,2019
+202358,1458,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,267,2020
+202359,1459,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,235,2019
+202360,1460,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,119,2018
+202361,1461,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,148,2018
+202362,1462,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,190,2019
+202363,1463,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,64,2019
+202364,1464,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,110,2019
+202365,1465,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,298,2018
+202366,1466,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,172,2020
+202367,1467,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,152,2019
+202368,1468,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,193,2020
+202369,1469,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,128,2020
+202370,1470,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,265,2019
+202371,1471,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,25,2021
+202372,1472,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,121,2021
+202373,1473,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,288,2020
+202374,1474,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,96,2021
+202375,1475,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,32,2018
+202376,1476,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,204,2021
+202377,1477,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,211,2021
+202378,1478,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,76,2021
+202379,1479,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,209,2020
+202380,1480,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,137,2021
+202381,1481,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,290,2020
+202382,1482,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,176,2019
+202383,1483,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,162,2019
+202384,1484,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,271,2018
+202385,1485,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,143,2018
+202386,1486,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,4,2020
+202387,1487,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,201,2020
+202388,1488,ENT-24-40F,Enterprise Switch 40GigE SFP+ 24 port ,204,2020
+202389,1489,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,170,2018
+202390,1490,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,180,2021
+202391,1491,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,87,2020
+202392,1492,ADV-24-10C,Advanced Switch 10GigE Copper 24 port,290,2018
+202393,1493,ENT-48-10F,Enterprise Switch 10GigE SFP+ 48 port,189,2019
+202394,1494,ADV-48-10F,Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber,186,2018
+202395,1495,ENT-24-10F,Enterprise Switch 10GigE SFP+ 24 Port,172,2020
+202396,1496,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,77,2019
+202397,1497,BAS-48-1 C,Basic Switch 10/100/1000 BaseT 48 port,218,2018
+202398,1498,BAS-08-1 C,Basic Switch  10/100/1000 BaseT 8 port,279,2019
+202399,1499,ENT-48-40F,Enterprise Switch 40GigE SFP+ 48 port ,211,2020
