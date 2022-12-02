@@ -1,6 +1,6 @@
 ---
-title: "DA.5020.P3.Xiaoluan.Huang"
-author: "Xiaoluan Huang"
+title: "KNN Regression"
+author: "Sita Patel"
 date: "2022-08-13"
 output: html_document
 ---
