@@ -43,9 +43,7 @@ The goal of the Autism Screening and Assessment Clinic is to provide identificat
 - Machine learning models and ensemble techniques were applied to achieve high accuracy in ASD diagnosis.In conclusion, all implemented algorithms successfully classify individuals as either ASD patients or normal individuals based on the provided features.  
 - All the models achieved 100 % accuracy except for decision tree with 98.57%. 
 - Bagging and Boosting ensemble methods were applied to enhance model performance. 
-
 Bagging, using both Treebag and Random Forest, yielded impressive results with mean accuracies of 98.56% and 99.27%, respectively. 
-
 Boosting, employing C5.0 and GBM, exhibited even higher accuracy, with both algorithms achieving a mean accuracy of 99.71%. This underscores the potential of ensemble techniques to improve predictive accuracy compared to individual models.
 
 Feel free to explore the code and adapt it to your specific needs. For further details, refer to the code comments and results provided in the README file.
