@@ -1,0 +1,711 @@
+---
+title: "Evaluation of various predictive models for ASD diagnosis"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+ The goal of the Autism Screening and Assessment Clinic is to provide identification of Autism Spectrum Disorder (ASD) to inform intensive behavioral treatment, while addressing specific skill deficits and enhancing community inclusion. 
+
+Objective is to predict the likelihood of a person having autism using survey and demographic variables. The target variable is Class_ASD. It is a classification problem. 
+Number of Instances (records in the data set): 704 (rows)
+Number of Attributes (fields within each record): 21 (columns)
+
+I divided the provided data into scaled and unscaled categories for this dataset using PCA, a feature engineering technique, and I tested each category's performance. Prior to performing PCA, I first removed the target column. Once the PCA was scaled, two graphs were drawn, with the first principle component explaining 4.9% of the variance and the second principle component explaining 2.6%. First principle component accounts for 89.6% of the variance in the unscaled PCA plot, while second principle component accounts for 6.5% of the variance. The overall variance was 96.1%. We can conclude that unscaled PCA perform better than scaled PCA at reducing the dimensions of the data.
+
+############################################################################################################################################
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# loading required libraries
+```{r}
+library('dplyr')
+library('tidyr')
+library('ggplot2')
+library('caret')
+library('e1071')
+library('rpart')
+library('neuralnet')
+library('caretEnsemble')
+
+
+```
+
+# Data import
+```{r}
+# reading the autism dataset
+autism_data <- read.csv("/Users/hp/Desktop/DA5030/Gayathri/Project/autism_screening.csv")
+```
+
+
+# exploratory data plots - 
+
+Visualizing datasets using head(), dim(), str(), summary(), length(), colsums()
+selecting the columns- selectif()
+1. table(), hist(), ggplots after the feature selection
+2. checking unique values - unique()
+3. correlation/collinearity/chi-squared analysis - cor(), 
+4. evaluation of distribution - barplots, histograms.
+```{r}
+# visualising first few rows of the dataset
+# checking the dimension of the dataset
+# the datset has 704 rows and 21 columns
+head(autism_data)
+dim(autism_data) 
+str(autism_data)
+```
+
+```{r}
+# summary of all the variables
+summary(autism_data)
+```
+
+# remove the row with age = 383,since the max value is 383
+```{r}
+rownames(autism_data[autism_data$age == 383,])
+autism_data <- autism_data[-53,]
+autism_data <- as.data.frame(autism_data)
+max(autism_data$age, na.rm = TRUE)
+# maximum value for age is now 64
+```
+
+```{r}
+# numerical columns count
+length(select_if(autism_data,is.numeric))
+
+# categorical columns count 
+length(select_if(autism_data,is.character))
+```
+
+# checking for missing values in the dataset
+```{r}
+colSums(is.na(autism_data))
+# there are 2 missing values in the age column
+```
+
+```{r}
+# checking for the distribution of age column
+hist(autism_data$age, main = 'Histogram of age', xlab = "Age")
+# Because the age distribution is positively skewed, we will use the median to impute the values.
+
+autism_data$age[is.na(autism_data$age)] <- median(autism_data$age, na.rm = TRUE)
+sum(is.na(autism_data$age))
+```
+
+```{r}
+# selecting the continous columns
+# selecting the categorical columns
+# checking for count of unique values in categorical variables
+numerical_aut_data <- select_if(autism_data, is.numeric) # Check if an Object is of Type Numeric
+catgl_autism_data <- select_if(autism_data, is.character) # Check if character
+catgl_autism_data %>% summarise_all(n_distinct)
+```
+
+```{r}
+# There are 9 columns with unique count values:
+# gender - 2, etnicity - 12, jundice - 2, autism - 2, country_of_res - 67, used_app_before - 2, age_desc - 1, relation - 6, Class.ASD - 2
+
+# Age desc can be removed because it only has one unique value and is therefore useless.
+catgl_autism_data <- catgl_autism_data[,-7]
+```
+
+
+```{r}
+# further checking unique values in each column
+unique(catgl_autism_data$gender)
+# There is a "?" in the ethnicity column, which is an invalid value, and "Other" and "others" are treated as separate values even though they ought to be treated as the same
+unique(catgl_autism_data$ethnicity)
+```
+
+```{r}
+# replacing '?' and 'other' with 'Others'
+catgl_autism_data$ethnicity[catgl_autism_data$ethnicity == "?"] <- "Others"
+catgl_autism_data$ethnicity[catgl_autism_data$ethnicity == "others"] <- "Others"
+unique(catgl_autism_data$ethnicity)
+unique(catgl_autism_data$jundice)
+unique(catgl_autism_data$austim)
+unique(catgl_autism_data$contry_of_res)
+unique(catgl_autism_data$used_app_before)
+unique(catgl_autism_data$relation)
+```
+
+```{r}
+# relation column also has invalid value which is "?"
+# replacing this "?" with "Others"
+catgl_autism_data$relation[catgl_autism_data$relation == "?"] <- "Others"
+unique(catgl_autism_data$relation)
+unique(catgl_autism_data$Class.ASD)
+```
+
+
+```{r}
+# checking for the count of Autism Spectrum Disorder (ASD)
+table(catgl_autism_data$Class.ASD)
+barplot(table(catgl_autism_data$Class.ASD), main = "Histogram for ASD", ylab = "Frequency")
+```
+# there are 189 ASD patients and 514 normal patients
+
+```{r}
+# checking the distribution of male and female in the data
+table(catgl_autism_data$gender)
+```
+# there are 336 females and 367 males
+
+```{r}
+# plotting he histogram
+barplot(table(catgl_autism_data$gender), main = "Histogram for Gender", ylab = "Frequency")
+```
+
+```{r}
+# plotting distribution of ASD with ethnicity
+table <- with(catgl_autism_data, table(ethnicity, Class.ASD))
+ggplot(as.data.frame(table), aes(factor(Class.ASD), Freq, fill = ethnicity)) +     
+  geom_col(position = 'dodge') + xlab("ASD") + ylab("Frequency")
+```
+# We can see from the plot that White Europeans and Pacificans have the most ASD patients, while Turkish and Pacificanos have the least. Turkish people, on the other hand, have the fewest normal people, while White Europeans have the greatest proportion of normal people.
+
+```{r}
+# label encoding the binary categorical variables
+catgl_autism_data$gender <- ifelse(catgl_autism_data$gender == "m", 1, 0)
+catgl_autism_data$jundice <- ifelse(catgl_autism_data$jundice == "yes", 1, 0)
+catgl_autism_data$austim <- ifelse(catgl_autism_data$austim == "yes", 1, 0)
+catgl_autism_data$used_app_before <- ifelse(catgl_autism_data$used_app_before == "yes", 1, 0)
+catgl_autism_data$Class.ASD <- ifelse(catgl_autism_data$Class.ASD == "YES", 1, 0)
+```
+
+```{r}
+# One hot encoding for rest of the categorical variables
+dummy <- dummyVars(" ~ .", data = catgl_autism_data, sep = "_")
+catgl_autism_data <- data.frame(predict(dummy, newdata = catgl_autism_data))
+head(catgl_autism_data)
+```
+
+
+```{r}
+# finding correaltion between variables, using only numerical variables
+num_cor_mat <- cor(cbind(numerical_aut_data, catgl_autism_data$Class.ASD))
+num_cor_mat
+```
+# The variable result exhibits a strong correlation with the intended variable, Class.ASD, of 0.8217294. None of the other variables exhibit strong correlations between one another.
+
+```{r}
+# using only encoded categorical variables
+cat_corr<- cor(catgl_autism_data)
+cat_corr
+```
+
+```{r}
+# relation Others and ethnicity are highly correlated. We will drop the relationothers because of others of 0.82172939
+catgl_autism_data <- catgl_autism_data[,-83]
+catgl_autism_data
+```
+
+# Since the other columns are binary, the min max scaling function won't have an impact on them when we implement min max scaling. We will use min max normalization to bring the age and result columns to the same scale.
+```{r}
+min_max_scaler <- function(x) {
+  (x - min(x)) / (max(x) - min(x))
+}
+# using min_max_scaler function
+scaled_numerical_aut_data <- as.data.frame(lapply(numerical_aut_data, min_max_scaler))
+scaled_numerical_aut_data
+```
+
+# NOTE:There are 97 features in our dataset overall, not including the target variable. As there are no variables that can be combined to form a new feature or which can be split to create two new features, there is no need to apply feature engineering or derived features. Another reason for not applying any kind of transformation to our features is that our algorithms do make the assumption of normality and will not be affected even if the data does not have normal distribution.
+
+```{r}
+# Use PCA to select features
+PCA_data <- cbind(numerical_aut_data, catgl_autism_data)
+# removing the target column before performing PCA
+PCA_data <- PCA_data[,-98]
+colnames(PCA_data)
+```
+
+```{r}
+# performimg scaled PCA
+PCA_scaled <- prcomp(PCA_data, scale. = TRUE, center = TRUE)
+summ_PCA_scaled <- summary(PCA_scaled)
+summ_PCA_scaled$importance[2,]
+```
+```{r}
+var_scaled <- PCA_scaled$sdev^2 / sum(PCA_scaled$sdev^2)
+var_scaled
+```
+
+```{r}
+# plotting scree plot for scaled PCA
+qplot(c(1:97), var_scaled) + 
+  geom_line() + 
+  xlab("Principal Component (Scaled PCA)") + 
+  ylab("Variance Explained") +
+  ggtitle("Scree Plot") +
+  ylim(0, 1)
+```
+# In scaled PCA, the first principal component explains 0.04889 or 4.9% of the variance and the second principal componenet explains 0.02595 or 2.6% of the variance
+
+```{r}
+# performing unscaled PCA
+PCA_unscaled <- prcomp(PCA_data)
+summ_PCA_unscaled <- summary(PCA_unscaled)
+summ_PCA_unscaled
+```
+```{r}
+var_unscaled <- PCA_unscaled$sdev^2 / sum(PCA_unscaled$sdev^2)
+var_unscaled
+```
+
+```{r}
+# plotting scree plot for unscaled PCA
+qplot(c(1:97), var_unscaled) + 
+  geom_line() + 
+  xlab("Principal Component (Unscaled PCA)") + 
+  ylab("Variance Explained") +
+  ggtitle("Scree Plot") +
+  ylim(0, 1)
+```
+```{r}
+#According to unscaled PCA, the first principal component accounts for 89.6% of the variance, or 0.89587, and the second principal component, or 0.06543, accounts for 6.5% of the variance, or 0.96130, or 96.1%. Therefore, we can choose the first five principal components to use with machine learning algorithms and use the first two principal components to visualize our data in two dimensions in a scatter plot. Our cumulative proportion from the first five principal components is 0.97017, or 97.02 percent.
+```
+
+```{r}
+# We can see that unscaled PCA performs better than scaled PCA in terms of reducing the dimensions of the data after performing both scaled and unscaled PCA.Now, adding the target column Class and selecting the first five main components as features for machine learning algorithms. ASD
+Class.ASD <- catgl_autism_data$Class.ASD
+data <- cbind(as.data.frame(PCA_unscaled$x[,1:5]), Class.ASD)
+data
+```
+
+```{r}
+# splitting the data into training and testing set
+# Without replacement, random sampling is used to split the rows. Because training is the more difficult and involved step in a machine learning algorithm, the training set should contain more data than the testing or validation set, which is why only 20% of the data is used for validation and 80% for training.
+set.seed(10)
+rows_testset <- sample(rownames(data), 0.20 * nrow(data), replace = FALSE)
+test_set <- data[rows_testset,]
+train_set <- data[!row.names(data) %in% rows_testset,]
+```
+
+# All the implemented ML algorthms will be evaluated using confusion matrix, AUC, precision, recall and F1-score
+
+#######################################
+### SVM ###
+#######################################
+
+# Implementing SVM
+```{r}
+# SVM is compatible with the features in the dataset
+SVM <- svm(formula = Class.ASD ~ .,
+           data = train_set,
+           type = "C-classification",
+           kernel = "radial")
+
+summary(SVM)
+```
+```{r}
+# using our SVM to make predictions on the validation set
+svm_prediction <- predict(SVM , test_set)
+svm_prediction
+```
+
+```{r}
+# creating SVM confusion matrix
+SVM_confusion_matrix = table(svm_prediction, test_set$Class.ASD)
+SVM_confusion_matrix
+```
+
+# All 102 healthy people and all 38 ASD patients can be accurately classified using SVM.
+
+```{r}
+# Calculating SVM misclassification rate
+SVM_missclass_rate <- mean(svm_prediction != test_set$Class.ASD) * 100
+SVM_missclass_rate
+```
+# SVM has a misclassification rate of 0%
+
+```{r}
+# Calculating SVM accuracy
+SVM_accuracy <- sum(diag(SVM_confusion_matrix)) / sum(SVM_confusion_matrix) * 100
+SVM_accuracy
+```
+# the accuracy of SVM is 100%
+
+```{r}
+# finding true positive, true negative, false positive and false negative from SVM confusion matrix
+true_pos_svm <- SVM_confusion_matrix[2,2]
+true_pos_svm
+true_neg_svm <- SVM_confusion_matrix[1,1]
+true_neg_svm
+false_pos_svm <- SVM_confusion_matrix[2,1]
+false_pos_svm
+false_neg_svm <- SVM_confusion_matrix[1,2]
+false_neg_svm
+```
+
+```{r}
+# Calculating SVM precision
+SVM_prec <- true_pos_svm/(true_pos_svm + false_pos_svm)
+SVM_prec
+```
+# the precision of SVM is 1
+
+```{r}
+# Calculating SVM recall
+SVM_rec <- true_pos_svm/(true_pos_svm + false_neg_svm)
+SVM_rec
+```
+# the recall of SVM is 1
+
+```{r}
+# Calculating F1 score for SVM
+SVM_F1 <- 2 * ((SVM_prec * SVM_rec)/(SVM_prec + SVM_rec))
+SVM_F1
+```
+# the F1 score 1
+
+# The algorithm is already performing well, so there is no point in repeatedly dividing the dataset and training/testing the model on different portions of it. We can use k-fold cross validation for SVM, but we shouldn't use it.
+
+#######################################
+### Decision trees ###
+#######################################
+
+# 2.) Implementing Decision Tree
+```{r}
+# Decision Tree is compatible with the features in the dataset
+decision_tree <- rpart(Class.ASD ~., data = train_set, method = 'class')
+summary(decision_tree)
+```
+```{r}
+# using our decision tree to make predictions on the validation set
+pred_decision_tree <- predict(decision_tree, test_set, type="class")
+pred_decision_tree
+```
+```{r}
+# creating decision tree confusion matrix
+dec_tree_confusion_matrix = table(pred_decision_tree, test_set$Class.ASD)
+dec_tree_confusion_matrix
+```
+
+# 37 ASD patients and 101 healthy individuals can be classified correctly by Decision Tree, but it misclassifies 1 healthy individual as an ASD patient (false positive) and 1 ASD patient as a healthy individual (false negative)
+
+```{r}
+# Calculating decision tree misclassification rate
+dec_tree_miss_class_rate <- mean(pred_decision_tree != test_set$Class.ASD) * 100
+dec_tree_miss_class_rate
+```
+# Decision tree has a misclassification rate of 1.428571%
+
+```{r}
+# Calculating decision tree accuracy
+dec_tree_accuracy <- sum(diag(dec_tree_confusion_matrix)) / sum(dec_tree_confusion_matrix) * 100
+dec_tree_accuracy
+```
+# the accuracy of decision tree is 98.57143%
+
+```{r}
+# finding true positive, true negative, false positive and false negative from decision tree confusion matrix
+true_pos_dec_tree <- dec_tree_confusion_matrix[2,2]
+true_pos_dec_tree
+true_neg_dec_tree <- dec_tree_confusion_matrix[1,1]
+true_neg_dec_tree
+false_pos_dec_tree <- dec_tree_confusion_matrix[2,1]
+false_pos_dec_tree
+false_neg_dec_tree <- dec_tree_confusion_matrix[1,2]
+false_neg_dec_tree
+```
+```{r}
+# Calculating decision tree precision
+dec_tree_prec <- true_pos_dec_tree/(true_pos_dec_tree + false_pos_dec_tree)
+dec_tree_prec
+```
+# the precision of decision tree is 0.9736842
+
+```{r}
+# Calculating dec_tree recall
+dec_tree_rec <- true_pos_dec_tree/(true_pos_dec_tree + false_neg_dec_tree)
+dec_tree_rec
+```
+# the recall of dec_tree is 0.9736842
+
+```{r}
+# Calculating F1 score for dec_tree
+dec_tree_F1 <- 2 * ((dec_tree_prec * dec_tree_rec)/(dec_tree_prec + dec_tree_rec))
+dec_tree_F1
+```
+# the F1 score for decision tree is 0.9736842
+
+```{r}
+# utilizing k fold cross validation for decision tree seeding to ensure repeatability of results
+set.seed(10)
+
+# In this case, we are using 10 fold cross validation, the function trainControl generates parameters that control how models will be created.
+train_control <- trainControl(method = "cv", number = 10, savePredictions=TRUE)
+train_control
+```
+
+```{r}
+# Decision tree model construction with 10-fold cross validation. We pass all data inside the train function because k fold cross validation will split the data into the train and the test.
+model <- train(factor(Class.ASD) ~., data = data,
+               trControl = train_control,
+               method = "rpart")
+
+model
+```
+# we are getting an accuracy of 0.9914475 at cp = 0.489418 using k-fold cross validation
+
+#######################################
+### Logistic Regression ###
+#######################################
+
+# 3.) Implementing Logistic Regression
+```{r}
+# Logistic Regression is compatible with the features in the dataset
+log_regression_model <- glm(Class.ASD ~., 
+                     data = train_set, 
+                     family = "binomial")
+
+summary(log_regression_model)
+```
+
+```{r}
+# using Logistic Regression model to make predictions on the validation set
+pred_logistic_reg <- predict(log_regression_model, test_set, type="response")
+pred_logistic_reg <- ifelse(pred_logistic_reg > 0.5, 1, 0)
+pred_logistic_reg
+```
+
+```{r}
+# creating logistic regression confusion matrix
+log_reg_confusion_matrix = table(pred_logistic_reg, test_set$Class.ASD)
+log_reg_confusion_matrix
+```
+
+# Logistic Regression is able to correctly classify all ASD patients and all normal people
+
+```{r}
+# Calculating logistic regression misclassification rate
+log_reg_miss_class_rate <- mean(pred_logistic_reg != test_set$Class.ASD) * 100
+log_reg_miss_class_rate
+```
+# Logistic Regression has a misclassification rate of 0%
+
+```{r}
+# Calculating logistic regression accuracy
+log_reg_acc <- sum(diag(log_reg_confusion_matrix)) / sum(log_reg_confusion_matrix) * 100
+log_reg_acc
+```
+# the accuracy of logistic regression is 100%
+
+```{r}
+# finding true positive, true negative, false positive and false negative from logistic regression confusion matrix
+true_pos_log_reg <- log_reg_confusion_matrix[2,2]
+true_pos_log_reg
+true_neg_log_reg <- log_reg_confusion_matrix[1,1]
+true_neg_log_reg
+false_pos_log_reg <- log_reg_confusion_matrix[2,1]
+false_pos_log_reg
+false_neg_log_reg <- log_reg_confusion_matrix[1,2]
+false_neg_log_reg
+```
+
+```{r}
+# Calculating log_reg precision
+log_reg_prec <- true_pos_log_reg/(true_pos_log_reg + false_pos_log_reg)
+log_reg_prec 
+```
+# the precision of Logistic Regression is 1
+
+```{r}
+# Calculating log_reg recall
+log_reg_rec <- true_pos_log_reg/(true_pos_log_reg + false_neg_log_reg)
+log_reg_rec
+```
+# the recall of log_reg is 1
+
+```{r}
+# Calculating F1 score for log_reg
+log_reg_F1 <- 2 * ((log_reg_prec * log_reg_rec)/(log_reg_prec + log_reg_rec))
+log_reg_F1
+```
+# the F1 score for logistic regression is 1
+
+# Since the algorithm is already effective, there is no point in repeatedly dividing the dataset and training/testing the model on different portions of it. We can use k-fold cross validation for logistic regression, but we shouldn't use.
+
+#######################################
+### Artificial Neural Networks ###
+#######################################
+
+# 4.) Implementing Artificial Neural Network
+```{r}
+# fitting the neural network
+set.seed(10)
+ANN <- neuralnet(Class.ASD ~ .,
+                 data = train_set,
+                 hidden = c(4))
+```
+
+# number of neurons in the hidden layer taken as 1 less than the number of features
+
+```{r}
+# making predictions using ANN 
+ANN_result <- compute(ANN, rep = 1, test_set[, -6])
+ANN_predictions <- ANN_result$net.result
+ANN_predictions <- ifelse(ANN_predictions > 0.5, 1, 0)
+ANN_predictions
+```
+
+```{r}
+# creating ANN confusion matrix
+ANN_confusion_matrix <- table(ANN_predictions, test_set$Class.ASD)
+ANN_confusion_matrix
+```
+# ANN is able to correctly classify all ASD patients and all normal people 
+
+```{r}
+# calulating ANN misclassification rate
+ANN_misclass_rate <- mean(ANN_predictions != test_set$Class.ASD) * 100
+ANN_misclass_rate
+```
+# ANN misclassification rate is 0%
+
+```{r}
+# calulating ANN accuracy
+ANN_acc <- sum(diag(ANN_confusion_matrix)) / sum(ANN_confusion_matrix) * 100
+ANN_acc
+```
+# the accuracy from neural network is 100%
+
+```{r}
+# calculating true positive, true negative, false positive and false negative from the ANN confusion matrix
+true_pos_ANN <- ANN_confusion_matrix[2,2]
+true_pos_ANN
+true_neg_ANN <- ANN_confusion_matrix[1,1]
+true_neg_ANN
+false_pos_ANN <- ANN_confusion_matrix[2,1]
+false_pos_ANN
+false_neg_ANN <- ANN_confusion_matrix[1,2]
+false_neg_ANN
+```
+```{r}
+# calculating ANN precision 
+ANN_prec <- true_pos_ANN/(true_pos_ANN + false_pos_ANN)
+ANN_prec 
+```
+# ANN precision is 1
+
+```{r}
+# calculating ANN recall
+ANN_recall <- true_pos_ANN/(true_pos_ANN + false_neg_ANN)
+ANN_recall 
+```
+# ANN recall is 1
+
+```{r}
+# Calculating F1 score for log_reg
+ANN_F1 <- 2 * ((ANN_prec * ANN_recall)/(ANN_prec + ANN_recall))
+ANN_F1
+```
+# the F1 score for ANN is 1
+
+# For logistic regression, we can use k-fold cross validation, but we shouldn't because the algorithm is already effective and there is no point in repeatedly dividing the dataset and training/testing the model on different portions of it.
+
+
+The SVM model, Logistic regression model, and ANN model achieved a accuracy of 100% whereas the Decision tree acheived an accuracy of 98% while it acheived 0.9914475 at cp = 0.489418 using k-fold cross validation.
+
+
+# Applying two ensemble techniques bagging and boosting
+```{r}
+# Applying two Bagging algorithms
+# 1.) Treebag
+control <- trainControl(method="repeatedcv", number=10, repeats=3)
+seed <- 7
+metric <- "Accuracy"
+metric
+```
+
+```{r}
+# Bagged CART
+set.seed(seed)
+fit.treebag <- train(factor(Class.ASD)~., data=data, method="treebag", metric=metric, trControl=control)
+fit.treebag
+```
+
+```{r}
+#  Random Forest
+set.seed(seed)
+fit.rf <- train(factor(Class.ASD)~., data=data, method="rf", metric=metric, trControl=control)
+fit.rf
+```
+
+```{r}
+# summarize results for both bagging algorithms
+bagging_results <- resamples(list(treebag=fit.treebag, rf=fit.rf))
+summary(bagging_results)
+dotplot(bagging_results)
+```
+
+# treebag is giving a mean accuracy of 0.9856107 whereas random forest is giving a mean accuracy of 0.9926671
+
+```{r}
+# Applying two boosting algorithms:
+# C5.0
+set.seed(seed)
+fit.c50 <- train(factor(Class.ASD)~., data=data, method="C5.0", metric=metric, trControl=control)
+fit.c50
+```
+
+```{r}
+# Stochastic Gradient Boosting
+set.seed(seed)
+fit.gbm <- train(factor(Class.ASD)~., data=data, method="gbm", metric=metric, trControl=control, verbose=FALSE)
+fit.gbm
+```
+
+```{r}
+# summarize results
+boosting_results <- resamples(list(c5.0=fit.c50, gbm=fit.gbm))
+summary(boosting_results)
+dotplot(boosting_results)
+```
+
+# Mean accuracy of C5.0 is 0.9971429 and gbm is also 0.9971429 and both the boosting algorithms are giving same accuracy
+
+```{r}
+# Performing hyperparameter tuning for stochastic gradient boosting
+hyperparameter_grid <- expand.grid(
+  .n.trees = c(250, 500),
+  .interaction.depth=c(2,3), 
+  .shrinkage=0.5,
+  .n.minobsinnode=10
+)
+
+data_2 <- data[,-6]
+target_class <- factor(ifelse(data$Class.ASD == 0, "No", "Yes"))
+data_2 <- cbind(data_2, target_class)
+fit_hypertune <- train(target_class ~ . , data = data_2,
+             method = "gbm",
+             trControl = trainControl(method="cv", number = 5, verboseIter = TRUE, classProbs = TRUE),
+             tuneGrid = hyperparameter_grid)
+print(fit_hypertune)
+plot(fit_hypertune)
+```
+
+# The following accuracies were obtained corresponding to the hyperparameters
+  n.trees  Accuracy   Kappa    
+  250      0.9971631  0.9927946
+  500      0.9957447  0.9892223
+  250      0.9971631  0.9926734
+  500      0.9957345  0.9891526
+
+# We can see that the accuracy of the gbm slightly improved after hyperparameter tuning, going from 0.9971429 to 0.9971631 at interaction depth 2 and 250 trees.
+
+# In conclusion, all of the implemented algorithms successfully classified the individuals in our dataset # into ASD patients and normal individuals based on the 20 independent features. These 20 features were subjected to PCA, and the first five principal components were chosen because they accounted for more than 95% of the variation in the dataset. These five principal components were then used as independent features by all machine learning algorithms, including ANN.
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+Final_plot <- plot(pressure)
+Final_plot
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
