@@ -1,4 +1,4 @@
-# README: Evaluation of Various Predictive Models for ASD Diagnosis
+# Evaluation of Various Predictive Models for ASD Diagnosis
 
 ## Project Overview
 
@@ -10,33 +10,33 @@ The goal of the Autism Screening and Assessment Clinic is to provide identificat
 
 ## Data Preprocessing
 
-1. **Loading Required Libraries:** We begin by loading essential libraries for data manipulation, visualization, and machine learning.
+- **Loading Required Libraries:** We begin by loading essential libraries for data manipulation, visualization, and machine learning.
 
-2. **Data Import:** The dataset is read from a CSV file.
+- **Data Import:** The dataset is read from a CSV file.
 
-3. **Exploratory Data Analysis (EDA):** We perform a preliminary exploration of the dataset to understand its structure, including displaying the first few rows, checking dimensions, and summarizing variables.
+- **Exploratory Data Analysis (EDA):** We perform a preliminary exploration of the dataset to understand its structure, including displaying the first few rows, checking dimensions, and summarizing variables.
 
-4. **Handling Missing Values:** We identify and handle missing values in the dataset, specifically addressing the 'age' column.
+- **Handling Missing Values:** We identify and handle missing values in the dataset, specifically addressing the 'age' column.
 
-5. **Data Encoding and Transformation:** We perform label encoding for binary categorical variables and one-hot encoding for the remaining categorical variables.
+- **Data Encoding and Transformation:** We perform label encoding for binary categorical variables and one-hot encoding for the remaining categorical variables.
 
-6. **Correlation Analysis:** We analyze correlations between variables and drop the 'relation_Others' column due to high correlation with 'ethnicity_Others'.
+- **Correlation Analysis:** We analyze correlations between variables and drop the 'relation_Others' column due to high correlation with 'ethnicity_Others'.
 
 ## Feature Engineering
 
-7. **Principal Component Analysis (PCA):** We apply PCA to reduce the dimensionality of the dataset. We compare the performance of PCA on both scaled and unscaled data.
+**Principal Component Analysis (PCA):** We apply PCA to reduce the dimensionality of the dataset. We compare the performance of PCA on both scaled and unscaled data.
 
 ## Model Building and Evaluation
 
-8. **Machine Learning Models:** We implement various machine learning models, including Support Vector Machine (SVM), Decision Tree, Logistic Regression, and Artificial Neural Networks (ANN).
+**Machine Learning Models:** We implement various machine learning models, including Support Vector Machine (SVM), Decision Tree, Logistic Regression, and Artificial Neural Networks (ANN).
 
-9. **Model Evaluation:** For each model, we evaluate its performance using metrics such as confusion matrices, accuracy, precision, recall, and F1-score. 
+**Model Evaluation:** For each model, we evaluate its performance using metrics such as confusion matrices, accuracy, precision, recall, and F1-score. 
 
 ## Ensemble Techniques
 
-10. **Bagging and Boosting:** We apply ensemble techniques, including bagging (Random Forest and Treebag) and boosting (C5.0 and Stochastic Gradient Boosting), to improve model performance.
+**Bagging and Boosting:** We apply ensemble techniques, including bagging (Random Forest and Treebag) and boosting (C5.0 and Stochastic Gradient Boosting), to improve model performance.
 
-11. **Hyperparameter Tuning:** We perform hyperparameter tuning for the Stochastic Gradient Boosting model to optimize its performance.
+**Hyperparameter Tuning:** We perform hyperparameter tuning for the Stochastic Gradient Boosting model to optimize its performance.
 
 ## Conclusion
 
