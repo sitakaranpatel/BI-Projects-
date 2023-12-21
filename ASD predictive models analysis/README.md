@@ -1,4 +1,4 @@
-# Evaluation of Various Predictive Models for ASD Diagnosis
+# Evaluation of Predictive Models for ASD Diagnosis
 
 ## Project Overview
 
