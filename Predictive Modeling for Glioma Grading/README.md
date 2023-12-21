@@ -3,7 +3,7 @@
 **Author:** Sita Karan Patel
 
 ## Introduction
-This repository contains an in-depth analysis of the "Glioma Grading" dataset obtained from the UCI Machine Learning Repository. [link](http://www.archive.ics.uci.edu/dataset/759/glioma+grading+clinical+and+mutation+features+dataset) The dataset comprises clinical and mutation features for glioma grading, with the primary objective of predicting the glioma grade. The analysis involves data preprocessing, visualization, and the application of multiple classification algorithms to build predictive models.
+This repository contains an in-depth analysis of the "Glioma Grading" dataset obtained from the UCI Machine Learning Repository, [dataset link](http://www.archive.ics.uci.edu/dataset/759/glioma+grading+clinical+and+mutation+features+dataset) The dataset comprises clinical and mutation features for glioma grading, with the primary objective of predicting the glioma grade. The analysis involves data preprocessing, visualization, and the application of multiple classification algorithms to build predictive models.
 
 ## Data Preparation
 The dataset was loaded and preprocessed to handle missing values, outliers, and normalization. It consists of both clinical and molecular features, including gender, age at diagnosis, race, and 20 molecular features such as IDH1, TP53, ATRX, and others.
