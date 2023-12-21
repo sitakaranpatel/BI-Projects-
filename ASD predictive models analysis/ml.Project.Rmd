@@ -13,7 +13,7 @@ Number of Attributes (fields within each record): 21 (columns)
 
 I divided the provided data into scaled and unscaled categories for this dataset using PCA, a feature engineering technique, and I tested each category's performance. Prior to performing PCA, I first removed the target column. Once the PCA was scaled, two graphs were drawn, with the first principle component explaining 4.9% of the variance and the second principle component explaining 2.6%. First principle component accounts for 89.6% of the variance in the unscaled PCA plot, while second principle component accounts for 6.5% of the variance. The overall variance was 96.1%. We can conclude that unscaled PCA perform better than scaled PCA at reducing the dimensions of the data.
 
-############################################################################################################################################
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
