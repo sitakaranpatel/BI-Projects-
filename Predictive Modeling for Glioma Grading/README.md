@@ -25,5 +25,8 @@ Three classification models were built and evaluated using the preprocessed data
 - A decision tree classification model was built, and its performance was evaluated using the previously mentioned metrics.
 
 ## Conclusion
-The analysis provides a comprehensive overview of the application of various classification models for predicting glioma grade based on clinical and molecular features. The evaluation metrics and visualizations offer insights into the performance of each model, enabling a comparative assessment of their effectiveness.
+The analysis provides a comprehensive overview of the application of various classification models for predicting glioma grade based on clinical and molecular features.
+I performed comprehensive data preprocessing, explored the dataset, handled missing values,detected and removed outliers, normalized features, transformed continuous features, conducted PCA, andbuilt classification models using k-NN, Naïve Bayes, and decision trees.  The evaluation of each model’sperformance using various metrics provided insights into their strengths and weaknesses.The comparison of the models revealed that while Model C exhibited perfect performance, potential overfit-ting or evaluation issues must be considered. Models A and B displayed strong performance, with Model Aappearing as a well-rounded choice due to its high accuracy, balanced precision and recall, and good ROCAUC. 
+The evaluation metrics and visualizations offer insights into the performance of each model, enabling a comparative assessment of their effectiveness.
+However, it’s imperative to validate these findings on additional datasets and conduct further analysis beforemaking a final decision.18
 
