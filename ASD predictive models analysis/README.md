@@ -7,7 +7,7 @@ The goal of the Autism Screening and Assessment Clinic is to provide identificat
 **Dataset Details:**
 - Number of Instances (records in the dataset): 704 (rows)
 - Number of Attributes (fields within each record): 21 (columns)
-[Dataset link](https://www.kaggle.com/datasets/faizunnabi/autism-screening/download?datasetVersionNumber=1)
+- [Dataset link](https://www.kaggle.com/datasets/faizunnabi/autism-screening/download?datasetVersionNumber=1)
 
 ## Data Preprocessing
 
