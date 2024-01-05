@@ -1,4 +1,4 @@
-# category.py
+# Overview
 This program counts how many genes are in each category based on data from the chr21_genes.txt file. The program prints the results so that categories are arranged in ascending order to an output file to the output file OUTPUT/categories.txt
 
 ## Description
