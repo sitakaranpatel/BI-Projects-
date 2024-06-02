@@ -19,8 +19,12 @@ The chr21_genes.txt file lists genes from human chromosome 21, in their order al
 3. **Write Output**
    - Writes results, including category, occurrence, and description, to `OUTPUT/categories.txt`.
 
-## Command Line Options
+## Execution
 
+To run the script on command line:
+```
+  python3 categories.py -i1 chr21_genes.txt -i2 chr21_genes_categories.tx
+```
 - `-i1` or `--infile1`: Path to the gene description file (`chr21_genes.txt`). Default is `./chr21_genes.txt`.
 - `-i2` or `--infile2`: Path to the gene category file (`chr21_genes_categories.txt`). Default is `./chr21_genes_categories.txt`.
 
